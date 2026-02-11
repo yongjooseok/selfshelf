@@ -138,7 +138,7 @@ export default function HomeScreen() {
       {/* ── 상단 헤더 ── */}
       <View style={styles.header}>
         <View>
-          <Text style={styles.title}>SelfShelf Test Success</Text>
+          <Text style={styles.title}>{t('home.title')}</Text>
           {hasProducts && (
             <Text style={styles.subtitle}>
               {t('home.subtitle', { count: products.length })}
