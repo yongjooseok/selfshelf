@@ -1,30 +1,65 @@
 {
   "expo": {
-    "name": "selfshelf",
+    "name": "SelfShelf",
     "slug": "selfshelf",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "scheme": "selfshelf",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0F0F14"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.selfshelf.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "성분표를 스캔하기 위해 카메라 접근이 필요합니다.",
+        "NSPhotoLibraryUsageDescription": "성분표 이미지를 선택하기 위해 사진 접근이 필요합니다."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0F0F14"
       },
+      "package": "com.selfshelf.app",
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "성분표를 스캔하기 위해 카메라 접근이 필요합니다."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "성분표 이미지를 선택하기 위해 사진 접근이 필요합니다."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "84b0ce99-03bc-4cfe-8fe0-323778834ba5"
+      },
+      "router": {}
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }

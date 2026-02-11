@@ -1,0 +1,646 @@
+[
+  {
+    "id": "R01_retinoid_aha",
+    "level": 1,
+    "type": "mutual",
+    "a": ["retinol", "tretinoin", "retinyl_palmitate", "retinaldehyde", "adapalene", "hydroxypinacolone_retinoate"],
+    "b": ["glycolic_acid", "lactic_acid", "mandelic_acid", "tartaric_acid", "citric_acid_active", "malic_acid"],
+    "title": {
+      "en": "Retinoid + AHA",
+      "ko": "레티노이드 + AHA"
+    },
+    "reason": {
+      "en": "Both exfoliate aggressively. Using together strips your skin barrier.",
+      "ko": "둘 다 강한 각질 제거제입니다. 함께 사용하면 피부 장벽이 손상됩니다."
+    },
+    "reasonDetail": {
+      "en": "Retinoids increase cell turnover while AHAs dissolve the bonds between dead skin cells. Combined, they cause double exfoliation that leads to redness, peeling, dryness, and compromised barrier function. This is especially risky for sensitive or dry skin types.",
+      "ko": "레티노이드는 세포 재생을 촉진하고 AHA는 죽은 피부 세포 사이의 결합을 녹입니다. 함께 사용하면 이중 각질 제거가 발생하여 홍조, 벗겨짐, 건조, 장벽 기능 저하로 이어집니다. 특히 민감하거나 건조한 피부 타입에 위험합니다."
+    },
+    "fix": {
+      "en": "Alternate nights: Retinoid on Mon/Wed/Fri, AHA on Tue/Thu/Sat.",
+      "ko": "밤마다 번갈아 사용하세요: 월수금 레티노이드, 화목토 AHA."
+    },
+    "fixDetail": {
+      "en": "Use retinoids on Mon/Wed/Fri evenings and AHA on Tue/Thu/Sat evenings. Keep Sunday as a recovery day with only hydrating and soothing products. Always apply moisturizer after either active. If you experience irritation, reduce to retinoid 2x/week and AHA 1x/week.",
+      "ko": "월수금 저녁에 레티노이드, 화목토 저녁에 AHA를 사용하세요. 일요일은 보습·진정 제품만 사용하는 회복일로 두세요. 어느 활성 성분 후에도 반드시 보습제를 바르세요. 자극이 있으면 레티노이드를 주 2회, AHA를 주 1회로 줄이세요."
+    },
+    "severityWeight": 8
+  },
+  {
+    "id": "R02_retinoid_bha",
+    "level": 1,
+    "type": "mutual",
+    "a": ["retinol", "tretinoin", "retinyl_palmitate", "retinaldehyde", "adapalene", "hydroxypinacolone_retinoate"],
+    "b": ["salicylic_acid", "betaine_salicylate"],
+    "title": {
+      "en": "Retinoid + BHA",
+      "ko": "레티노이드 + BHA"
+    },
+    "reason": {
+      "en": "Stacked irritation risk. Both can dry and inflame skin when combined.",
+      "ko": "자극이 중첩됩니다. 함께 사용하면 건조와 염증을 유발할 수 있습니다."
+    },
+    "reasonDetail": {
+      "en": "While BHA (salicylic acid) is oil-soluble and works inside pores, retinoids work on cell turnover. Together they create cumulative irritation — redness, flaking, and sensitivity. Some dermatologists allow this combo for experienced users, but it's risky for most.",
+      "ko": "BHA(살리실산)는 지용성으로 모공 속에서 작용하고, 레티노이드는 세포 재생에 작용합니다. 함께 사용하면 누적 자극(홍조, 벗겨짐, 민감)이 발생합니다. 일부 피부과에서는 숙련자에게 허용하지만, 대부분에게는 위험합니다."
+    },
+    "fix": {
+      "en": "Alternate nights. Or use BHA in AM, Retinoid in PM.",
+      "ko": "밤마다 번갈아 사용하세요. 또는 AM에 BHA, PM에 레티노이드."
+    },
+    "fixDetail": {
+      "en": "Best approach: alternate nights. If your skin tolerates both well, you can use BHA in the morning and retinoid at night — but introduce this gradually over 2-3 weeks. Start with lower concentrations of both.",
+      "ko": "가장 좋은 방법: 밤마다 번갈아 사용. 피부가 둘 다 잘 견디면 아침에 BHA, 밤에 레티노이드를 사용할 수 있지만, 2-3주에 걸쳐 서서히 도입하세요. 둘 다 낮은 농도부터 시작하세요."
+    },
+    "severityWeight": 7
+  },
+  {
+    "id": "R03_retinoid_benzoyl_peroxide",
+    "level": 1,
+    "type": "mutual",
+    "a": ["retinol", "tretinoin", "retinyl_palmitate", "retinaldehyde", "hydroxypinacolone_retinoate"],
+    "b": ["benzoyl_peroxide"],
+    "title": {
+      "en": "Retinoid + Benzoyl Peroxide",
+      "ko": "레티노이드 + 벤조일퍼옥사이드"
+    },
+    "reason": {
+      "en": "BP deactivates most retinoids, making both products useless.",
+      "ko": "BP가 대부분의 레티노이드를 비활성화시켜 두 제품 모두 효과가 없어집니다."
+    },
+    "reasonDetail": {
+      "en": "Benzoyl peroxide is a strong oxidizer that degrades the molecular structure of retinol, tretinoin, and most retinoids on contact. The exception is adapalene, which is chemically stable with BP. Using them together wastes both products and can cause excessive dryness.",
+      "ko": "벤조일퍼옥사이드는 강한 산화제로 레티놀, 트레티노인 등 대부분의 레티노이드의 분자 구조를 접촉 시 분해합니다. 예외는 아다팔렌으로, BP와 화학적으로 안정적입니다. 함께 사용하면 두 제품 모두 낭비되며 과도한 건조를 유발할 수 있습니다."
+    },
+    "fix": {
+      "en": "BP in the morning, Retinoid at night. Never layer together.",
+      "ko": "아침에 BP, 밤에 레티노이드. 절대 같이 바르지 마세요."
+    },
+    "fixDetail": {
+      "en": "Use BP in your AM routine and retinoid in PM. They work in separate routines without interfering. Note: Adapalene (Differin) is the one retinoid that IS stable with BP — if you use adapalene specifically, this combo is actually FDA-approved (Epiduo).",
+      "ko": "AM 루틴에 BP, PM 루틴에 레티노이드를 사용하세요. 별도 루틴에서 사용하면 간섭 없이 작동합니다. 참고: 아다팔렌(디페린)은 BP와 안정적인 유일한 레티노이드입니다. 아다팔렌을 사용한다면 이 조합은 FDA 승인(에피듀오)되어 있습니다."
+    },
+    "severityWeight": 8
+  },
+  {
+    "id": "R04_retinoid_vitc",
+    "level": 1,
+    "type": "mutual",
+    "a": ["retinol", "tretinoin", "retinyl_palmitate", "retinaldehyde", "adapalene", "hydroxypinacolone_retinoate"],
+    "b": ["l_ascorbic_acid"],
+    "title": {
+      "en": "Retinoid + Vitamin C (L-Ascorbic Acid)",
+      "ko": "레티노이드 + 비타민C (순수)"
+    },
+    "reason": {
+      "en": "pH mismatch causes instability and increased irritation.",
+      "ko": "pH 불일치로 불안정해지고 자극이 증가합니다."
+    },
+    "reasonDetail": {
+      "en": "L-Ascorbic Acid needs a low pH (under 3.5) to work, while retinoids work best at a higher pH (5.5-6). Layering them destabilizes both and increases irritation. Note: stable vitamin C derivatives (ascorbyl glucoside, ethyl ascorbic acid) are generally fine with retinoids.",
+      "ko": "순수 비타민C(L-아스코르브산)는 낮은 pH(3.5 미만)에서 작용하고, 레티노이드는 높은 pH(5.5-6)에서 최적으로 작용합니다. 함께 바르면 둘 다 불안정해지고 자극이 증가합니다. 참고: 안정형 비타민C 유도체(아스코빌글루코사이드, 에틸아스코빅애시드)는 레티노이드와 일반적으로 괜찮습니다."
+    },
+    "fix": {
+      "en": "Vitamin C in AM, Retinoid in PM. Simple and effective.",
+      "ko": "아침에 비타민C, 밤에 레티노이드. 간단하고 효과적입니다."
+    },
+    "fixDetail": {
+      "en": "The AM/PM split is the gold standard: Vitamin C in the morning (pairs with sunscreen for UV defense), retinoid at night (works with skin's repair cycle). If you want both at night, wait 30 minutes between applications. Or switch to a stable Vitamin C derivative which can safely layer with retinoids.",
+      "ko": "AM/PM 분리가 정석입니다: 아침에 비타민C(선크림과 함께 자외선 방어), 밤에 레티노이드(피부 복원 사이클과 함께). 밤에 둘 다 원하면 30분 간격을 두세요. 또는 레티노이드와 안전하게 함께 사용할 수 있는 안정형 비타민C 유도체로 전환하세요."
+    },
+    "severityWeight": 7
+  },
+  {
+    "id": "R05_aha_vitc",
+    "level": 1,
+    "type": "mutual",
+    "a": ["glycolic_acid", "lactic_acid", "mandelic_acid", "tartaric_acid", "citric_acid_active", "malic_acid"],
+    "b": ["l_ascorbic_acid"],
+    "title": {
+      "en": "AHA + Vitamin C (simultaneous)",
+      "ko": "AHA + 비타민C (동시 사용)"
+    },
+    "reason": {
+      "en": "Too much acid at once. Over-exfoliates and irritates skin.",
+      "ko": "한꺼번에 너무 많은 산. 과도한 각질 제거와 피부 자극을 유발합니다."
+    },
+    "reasonDetail": {
+      "en": "Both AHAs and L-Ascorbic Acid are low-pH actives. Layering them creates an excessively acidic environment that overwhelms skin's buffer capacity, leading to stinging, redness, and barrier damage. Each works best alone at its optimal pH.",
+      "ko": "AHA와 순수 비타민C 모두 저 pH 활성 성분입니다. 함께 바르면 피부의 완충 능력을 초과하는 과도한 산성 환경이 만들어져 따끔거림, 홍조, 장벽 손상으로 이어집니다. 각각 최적 pH에서 단독으로 사용할 때 가장 효과적입니다."
+    },
+    "fix": {
+      "en": "Vitamin C in AM, AHA in PM. Or alternate days.",
+      "ko": "아침에 비타민C, 밤에 AHA. 또는 날을 번갈아 사용."
+    },
+    "fixDetail": {
+      "en": "Best split: Vitamin C every morning, AHA 2-3 evenings per week. If you must use both at night, apply Vitamin C first, wait 20-30 minutes, then AHA. But the AM/PM split is simpler and more effective for most people.",
+      "ko": "최적 분리: 매일 아침 비타민C, 주 2-3회 저녁 AHA. 밤에 둘 다 사용해야 한다면 비타민C 먼저 바르고 20-30분 기다린 후 AHA를 바르세요. 하지만 AM/PM 분리가 대부분의 사람에게 더 간단하고 효과적입니다."
+    },
+    "severityWeight": 6
+  },
+  {
+    "id": "R06_bp_vitc",
+    "level": 1,
+    "type": "mutual",
+    "a": ["benzoyl_peroxide"],
+    "b": ["l_ascorbic_acid", "ascorbyl_glucoside", "ethyl_ascorbic_acid", "magnesium_ascorbyl_phosphate", "sodium_ascorbyl_phosphate", "ascorbyl_tetraisopalmitate"],
+    "title": {
+      "en": "Benzoyl Peroxide + Vitamin C",
+      "ko": "벤조일퍼옥사이드 + 비타민C"
+    },
+    "reason": {
+      "en": "BP oxidizes Vitamin C, canceling its antioxidant benefits.",
+      "ko": "BP가 비타민C를 산화시켜 항산화 효과를 무효화합니다."
+    },
+    "reasonDetail": {
+      "en": "Benzoyl peroxide is a powerful oxidizer. Vitamin C is an antioxidant. When combined, BP oxidizes vitamin C before it can benefit your skin, essentially wasting the vitamin C product. This applies to all forms of vitamin C.",
+      "ko": "벤조일퍼옥사이드는 강력한 산화제이고, 비타민C는 항산화제입니다. 함께 사용하면 BP가 비타민C를 피부에 효과를 주기 전에 산화시켜 비타민C 제품을 본질적으로 낭비합니다. 이는 모든 형태의 비타민C에 적용됩니다."
+    },
+    "fix": {
+      "en": "Different routines: Vitamin C in AM, BP in PM (or vice versa).",
+      "ko": "다른 루틴에 분리: 아침에 비타민C, 밤에 BP (또는 반대)."
+    },
+    "fixDetail": {
+      "en": "Never layer these in the same routine. Use Vitamin C in your morning routine for UV defense synergy with sunscreen, and BP in your evening routine for acne treatment. If using BP as a spot treatment, apply it after all other actives have absorbed.",
+      "ko": "같은 루틴에서 절대 같이 바르지 마세요. 아침 루틴에 비타민C를 선크림과 함께 사용하고, 저녁 루틴에 BP를 여드름 치료로 사용하세요. BP를 스팟 트리트먼트로 사용할 경우, 다른 모든 활성 성분이 흡수된 후에 바르세요."
+    },
+    "severityWeight": 7
+  },
+  {
+    "id": "R07_bp_aha_bha",
+    "level": 1,
+    "type": "mutual",
+    "a": ["benzoyl_peroxide"],
+    "b": ["glycolic_acid", "lactic_acid", "mandelic_acid", "salicylic_acid", "betaine_salicylate"],
+    "title": {
+      "en": "Benzoyl Peroxide + AHA/BHA",
+      "ko": "벤조일퍼옥사이드 + AHA/BHA"
+    },
+    "reason": {
+      "en": "Triple threat of irritation: antibacterial + exfoliation overload.",
+      "ko": "자극의 삼중 위협: 항균 + 과도한 각질 제거."
+    },
+    "reasonDetail": {
+      "en": "BP, AHAs, and BHAs all have irritation potential individually. Combined, they create an extremely harsh environment — excessive dryness, peeling, redness, and potential chemical burns in severe cases. This is one of the most damaging common mistakes.",
+      "ko": "BP, AHA, BHA 모두 개별적으로 자극 가능성이 있습니다. 함께 사용하면 극도로 가혹한 환경을 만들어 과도한 건조, 벗겨짐, 홍조, 심한 경우 화학적 화상을 유발합니다. 가장 해로운 흔한 실수 중 하나입니다."
+    },
+    "fix": {
+      "en": "Pick one: BP for bacteria, AHA/BHA for exfoliation. Alternate days.",
+      "ko": "하나만 선택: 세균 제거엔 BP, 각질 제거엔 AHA/BHA. 날을 번갈아 사용."
+    },
+    "fixDetail": {
+      "en": "Choose based on your primary concern: BP if acne bacteria is the issue, BHA if clogged pores are the issue, AHA if texture/pigmentation is the focus. Use only one per night, rotating through the week. Reserve BP for spot treatment if you want to use AHA/BHA more broadly.",
+      "ko": "주요 고민에 따라 선택하세요: 여드름균이 문제면 BP, 막힌 모공이 문제면 BHA, 피부결/색소가 초점이면 AHA. 한 밤에 하나만 사용하고, 한 주 동안 돌려가며 사용하세요. AHA/BHA를 더 광범위하게 사용하고 싶다면 BP는 스팟 트리트먼트로 남겨두세요."
+    },
+    "severityWeight": 8
+  },
+  {
+    "id": "R08_retinoid_scrub",
+    "level": 1,
+    "type": "mutual",
+    "a": ["retinol", "tretinoin", "retinyl_palmitate", "retinaldehyde", "adapalene", "hydroxypinacolone_retinoate"],
+    "b": [],
+    "title": {
+      "en": "Retinoid + Physical Exfoliant",
+      "ko": "레티노이드 + 물리적 스크럽"
+    },
+    "reason": {
+      "en": "Double exfoliation from chemical + physical causes micro-tears.",
+      "ko": "화학적+물리적 이중 각질 제거가 미세 상처를 유발합니다."
+    },
+    "reasonDetail": {
+      "en": "Retinoids thin the outer skin layer through cell turnover. Adding physical scrubbing to retinoid-treated skin risks micro-tears, inflammation, and damaged barrier. This is especially dangerous with prescription-strength retinoids.",
+      "ko": "레티노이드는 세포 재생을 통해 피부 외층을 얇게 합니다. 레티노이드를 사용한 피부에 물리적 스크럽을 추가하면 미세 상처, 염증, 장벽 손상의 위험이 있습니다. 특히 처방 강도의 레티노이드에서 위험합니다."
+    },
+    "fix": {
+      "en": "Skip scrubs on retinoid days. Use scrub on off-days only.",
+      "ko": "레티노이드 사용일에는 스크럽을 건너뛰세요. 쉬는 날에만 스크럽을 사용하세요."
+    },
+    "fixDetail": {
+      "en": "If you use retinoid Mon/Wed/Fri, only use physical exfoliant on Saturday or Sunday. Better yet, replace physical scrubs with gentle chemical exfoliation (PHA) which is safer to alternate with retinoids.",
+      "ko": "월수금에 레티노이드를 사용한다면 토요일이나 일요일에만 물리적 스크럽을 사용하세요. 더 좋은 방법은 물리적 스크럽을 레티노이드와 번갈아 사용하기에 더 안전한 순한 화학적 각질 제거제(PHA)로 교체하는 것입니다."
+    },
+    "severityWeight": 6
+  },
+  {
+    "id": "R09_multi_aha",
+    "level": 1,
+    "type": "mutual",
+    "a": ["glycolic_acid"],
+    "b": ["lactic_acid", "mandelic_acid", "tartaric_acid", "malic_acid"],
+    "title": {
+      "en": "Multiple AHAs at Once",
+      "ko": "여러 AHA 동시 사용"
+    },
+    "reason": {
+      "en": "Stacking multiple AHAs causes excessive exfoliation.",
+      "ko": "여러 AHA를 겹치면 과도한 각질 제거가 발생합니다."
+    },
+    "reasonDetail": {
+      "en": "Using multiple AHA products (e.g., glycolic acid toner + lactic acid serum) multiplies the exfoliation intensity. This overwhelms the skin's repair capacity, leading to over-exfoliation signs: shiny/tight skin, increased sensitivity, breakouts, and redness.",
+      "ko": "여러 AHA 제품(예: 글리콜산 토너 + 젖산 세럼)을 사용하면 각질 제거 강도가 배가됩니다. 피부의 복원 능력을 초과하여 과각질 제거 징후(번들번들/당김, 민감도 증가, 트러블, 홍조)가 나타납니다."
+    },
+    "fix": {
+      "en": "Choose one AHA product. More isn't better for exfoliation.",
+      "ko": "AHA 제품을 하나만 선택하세요. 각질 제거에서 더 많다고 더 좋은 게 아닙니다."
+    },
+    "fixDetail": {
+      "en": "Pick the AHA that best matches your needs: Glycolic for deep exfoliation, Lactic for gentle + hydrating, Mandelic for sensitive skin. Use it 2-4 times per week. If a product already contains multiple AHAs (designed as a blend), that's fine — the concern is using separate AHA products simultaneously.",
+      "ko": "필요에 맞는 AHA를 선택하세요: 깊은 각질 제거엔 글리콜산, 순한 보습 각질 제거엔 젖산, 민감 피부엔 만델산. 주 2-4회 사용하세요. 제품이 이미 여러 AHA를 블렌딩하여 포함하고 있다면 괜찮습니다 — 문제는 별도의 AHA 제품을 동시에 사용하는 것입니다."
+    },
+    "severityWeight": 6
+  },
+  {
+    "id": "R10_multi_retinoid",
+    "level": 1,
+    "type": "mutual",
+    "a": ["retinol", "retinyl_palmitate", "retinaldehyde", "hydroxypinacolone_retinoate", "bakuchiol"],
+    "b": ["tretinoin", "adapalene"],
+    "title": {
+      "en": "Multiple Retinoids",
+      "ko": "여러 레티노이드 중복"
+    },
+    "reason": {
+      "en": "Excess Vitamin A causes severe peeling and irritation.",
+      "ko": "과잉 비타민A가 심한 벗겨짐과 자극을 유발합니다."
+    },
+    "reasonDetail": {
+      "en": "Using an OTC retinol product alongside prescription tretinoin or adapalene doubles the Vitamin A dose on your skin. This causes severe peeling, redness, dryness, and can damage the skin barrier for weeks. Even 'gentle' retinoids add up.",
+      "ko": "일반 레티놀 제품과 처방 트레티노인이나 아다팔렌을 함께 사용하면 피부에 비타민A 용량이 두 배가 됩니다. 심한 벗겨짐, 홍조, 건조를 유발하며 피부 장벽이 몇 주간 손상될 수 있습니다. '순한' 레티노이드도 합산됩니다."
+    },
+    "fix": {
+      "en": "Use only one retinoid product at a time.",
+      "ko": "한 번에 레티노이드 제품 하나만 사용하세요."
+    },
+    "fixDetail": {
+      "en": "Choose the strongest retinoid you need and drop the others. If using prescription tretinoin, you don't need an OTC retinol. If transitioning to a stronger retinoid, phase out the weaker one over 1-2 weeks rather than using both.",
+      "ko": "필요한 가장 강한 레티노이드를 선택하고 나머지는 빼세요. 처방 트레티노인을 사용 중이면 일반 레티놀은 필요 없습니다. 더 강한 레티노이드로 전환할 때는 둘 다 사용하지 말고 1-2주에 걸쳐 약한 것을 단계적으로 중단하세요."
+    },
+    "severityWeight": 9
+  },
+  {
+    "id": "C01_niacinamide_vitc",
+    "level": 2,
+    "type": "ordered",
+    "a": ["l_ascorbic_acid"],
+    "b": ["niacinamide"],
+    "title": {
+      "en": "Vitamin C + Niacinamide",
+      "ko": "비타민C + 나이아신아마이드"
+    },
+    "reason": {
+      "en": "Mostly fine together! But very sensitive skin may get flushing.",
+      "ko": "대부분 함께 사용 가능! 하지만 극민감 피부는 홍조가 올 수 있습니다."
+    },
+    "reasonDetail": {
+      "en": "The old myth that these cancel each other out has been debunked. Modern formulations work well together. However, combining high-concentration L-Ascorbic Acid (15-20%) with niacinamide can cause temporary flushing in very sensitive skin due to niacin conversion. Stable vitamin C derivatives have zero issue with niacinamide.",
+      "ko": "이 둘이 서로 효과를 상쇄한다는 옛 통설은 반증되었습니다. 현대 제형은 함께 잘 작동합니다. 다만 고농도 순수 비타민C(15-20%)와 나이아신아마이드를 결합하면 나이아신 전환으로 인해 극민감 피부에서 일시적 홍조가 발생할 수 있습니다. 안정형 비타민C 유도체는 나이아신아마이드와 전혀 문제 없습니다."
+    },
+    "fix": {
+      "en": "If sensitive: apply Vitamin C first, wait 10 min, then Niacinamide.",
+      "ko": "민감하다면: 비타민C 먼저 바르고, 10분 기다린 후, 나이아신아마이드."
+    },
+    "fixDetail": {
+      "en": "For most people, just layer them normally — Vitamin C (lower pH) first, then niacinamide. If you experience flushing, wait 10-15 minutes between them, or use one in AM and one in PM. Alternatively, switch to a stable Vitamin C derivative (ascorbyl glucoside) which has zero compatibility issues.",
+      "ko": "대부분의 사람은 그냥 일반적으로 레이어링하면 됩니다 — 비타민C(낮은 pH) 먼저, 그 다음 나이아신아마이드. 홍조가 발생하면 10-15분 간격을 두거나, 하나는 AM에, 하나는 PM에 사용하세요. 또는 호환성 문제가 전혀 없는 안정형 비타민C 유도체(아스코빌글루코사이드)로 전환하세요."
+    },
+    "severityWeight": 3
+  },
+  {
+    "id": "C02_aha_niacinamide",
+    "level": 2,
+    "type": "ordered",
+    "a": ["glycolic_acid", "lactic_acid", "mandelic_acid", "salicylic_acid"],
+    "b": ["niacinamide"],
+    "title": {
+      "en": "AHA/BHA → Niacinamide (order matters)",
+      "ko": "AHA/BHA → 나이아신아마이드 (순서 중요)"
+    },
+    "reason": {
+      "en": "pH difference may reduce niacinamide effectiveness if applied wrong.",
+      "ko": "pH 차이로 잘못 바르면 나이아신아마이드 효과가 감소할 수 있습니다."
+    },
+    "reasonDetail": {
+      "en": "AHA/BHA products are formulated at low pH (3-4), while niacinamide works best at pH 5-7. Applying niacinamide immediately after acids can convert some niacinamide to niacin, causing flushing. The effect is temporary and not harmful, but reduces efficacy.",
+      "ko": "AHA/BHA 제품은 낮은 pH(3-4)에서 제형화되고, 나이아신아마이드는 pH 5-7에서 가장 잘 작용합니다. 산 바로 뒤에 나이아신아마이드를 바르면 일부가 나이아신으로 전환되어 홍조를 유발할 수 있습니다. 일시적이고 해롭지는 않지만 효능이 감소합니다."
+    },
+    "fix": {
+      "en": "Apply acid first, wait 5-10 min for pH to normalize, then niacinamide.",
+      "ko": "산을 먼저 바르고, pH가 정상화될 때까지 5-10분 기다린 후 나이아신아마이드."
+    },
+    "fixDetail": {
+      "en": "Apply your AHA/BHA product first. Wait 5-10 minutes for your skin's pH to return toward neutral. Then apply niacinamide. Or simply use acids in PM and niacinamide in AM — the easiest approach. Niacinamide in AM also helps with daytime oil control.",
+      "ko": "AHA/BHA 제품을 먼저 바르세요. 피부 pH가 중성으로 돌아올 때까지 5-10분 기다리세요. 그 다음 나이아신아마이드를 바르세요. 또는 PM에 산, AM에 나이아신아마이드를 사용하면 가장 간편합니다. AM 나이아신아마이드는 낮 시간 피지 조절에도 도움이 됩니다."
+    },
+    "severityWeight": 3
+  },
+  {
+    "id": "C03_vitc_spf",
+    "level": 2,
+    "type": "ordered",
+    "a": ["l_ascorbic_acid", "ascorbyl_glucoside", "ethyl_ascorbic_acid", "magnesium_ascorbyl_phosphate", "sodium_ascorbyl_phosphate", "ascorbyl_tetraisopalmitate"],
+    "b": ["zinc_oxide", "titanium_dioxide"],
+    "title": {
+      "en": "Vitamin C + SPF (Good! But order matters)",
+      "ko": "비타민C + SPF (좋아요! 하지만 순서 중요)"
+    },
+    "reason": {
+      "en": "Not a conflict! Great synergy. Just apply Vitamin C before sunscreen.",
+      "ko": "충돌이 아닙니다! 훌륭한 시너지. 비타민C를 선크림 전에 바르세요."
+    },
+    "reasonDetail": {
+      "en": "This is actually a beneficial combination — Vitamin C provides antioxidant protection that complements SPF's UV filtering. The caution is only about order: Vitamin C should be applied to clean skin before sunscreen, not mixed or applied after. Some unstable Vitamin C formulations can oxidize (turn yellow/brown), but this is a formulation issue, not a compatibility issue.",
+      "ko": "이것은 실제로 유익한 조합입니다 — 비타민C는 SPF의 자외선 차단을 보완하는 항산화 보호를 제공합니다. 주의사항은 순서뿐입니다: 비타민C는 선크림 전에 깨끗한 피부에 바르고, 섞거나 뒤에 바르지 마세요. 일부 불안정한 비타민C 제형은 산화(황색/갈색 변색)될 수 있지만 이는 제형 문제이지 호환성 문제가 아닙니다."
+    },
+    "fix": {
+      "en": "Apply Vitamin C serum first → let absorb 1-2 min → then SPF on top.",
+      "ko": "비타민C 세럼 먼저 → 1-2분 흡수 대기 → 그 위에 SPF."
+    },
+    "fixDetail": {
+      "en": "Morning routine: Cleanser → Toner → Vitamin C serum → wait 1-2 minutes for absorption → Moisturizer → Sunscreen as the last step. The Vitamin C creates an antioxidant shield under your sunscreen, boosting UV protection and fighting free radicals that sunscreen alone can't catch.",
+      "ko": "아침 루틴: 클렌저 → 토너 → 비타민C 세럼 → 1-2분 흡수 대기 → 보습제 → 마지막 단계로 선크림. 비타민C가 선크림 아래에 항산화 방패를 만들어 자외선 보호를 강화하고 선크림만으로 잡지 못하는 자유 라디칼과 싸웁니다."
+    },
+    "severityWeight": 2
+  },
+  {
+    "id": "C04_retinoid_ha",
+    "level": 2,
+    "type": "ordered",
+    "a": ["hyaluronic_acid", "sodium_hyaluronate_crosspolymer", "low_molecular_ha"],
+    "b": ["retinol", "tretinoin", "retinyl_palmitate", "retinaldehyde", "adapalene", "hydroxypinacolone_retinoate"],
+    "title": {
+      "en": "Hyaluronic Acid → Retinoid (order matters)",
+      "ko": "히알루론산 → 레티노이드 (순서 중요)"
+    },
+    "reason": {
+      "en": "Great combo! HA buffers retinoid irritation. Just apply HA first.",
+      "ko": "좋은 조합! HA가 레티노이드 자극을 완화합니다. HA를 먼저 바르세요."
+    },
+    "reasonDetail": {
+      "en": "Hyaluronic acid and retinoids work very well together. HA provides a hydrating buffer that reduces retinoid irritation and dryness. The key is applying HA first to damp skin, letting it absorb, then applying retinoid on top. Applying retinoid to dry skin without HA can increase irritation.",
+      "ko": "히알루론산과 레티노이드는 매우 잘 어울립니다. HA가 보습 완충 역할을 하여 레티노이드의 자극과 건조를 줄여줍니다. 핵심은 습한 피부에 HA를 먼저 바르고 흡수시킨 후 그 위에 레티노이드를 바르는 것입니다. HA 없이 마른 피부에 레티노이드를 바르면 자극이 증가할 수 있습니다."
+    },
+    "fix": {
+      "en": "Apply HA to damp skin first → then retinoid on top.",
+      "ko": "습한 피부에 HA를 먼저 바르세요 → 그 위에 레티노이드."
+    },
+    "fixDetail": {
+      "en": "After cleansing, pat skin semi-dry (not completely dry). Apply HA serum while skin is still damp — HA needs water to work. Wait 1-2 minutes for absorption. Then apply your retinoid. Follow with moisturizer to seal everything in. This 'HA sandwich' technique is recommended by dermatologists for retinoid beginners.",
+      "ko": "세안 후 피부를 반건조 상태로 두세요(완전히 건조하지 않게). 피부가 아직 축축한 상태에서 HA 세럼을 바르세요 — HA는 물이 있어야 작동합니다. 1-2분 흡수 대기. 그 다음 레티노이드를 바르세요. 보습제로 마무리하여 모든 것을 밀봉하세요. 이 'HA 샌드위치' 기법은 피부과 전문의가 레티노이드 초보자에게 권장합니다."
+    },
+    "severityWeight": 2
+  },
+  {
+    "id": "C05_multi_actives",
+    "level": 2,
+    "type": "mutual",
+    "a": ["retinol", "tretinoin", "l_ascorbic_acid", "glycolic_acid", "salicylic_acid", "benzoyl_peroxide", "azelaic_acid"],
+    "b": ["retinol", "tretinoin", "l_ascorbic_acid", "glycolic_acid", "salicylic_acid", "benzoyl_peroxide", "azelaic_acid"],
+    "title": {
+      "en": "3+ Strong Actives in One Routine",
+      "ko": "한 루틴에 강한 활성 성분 3개 이상"
+    },
+    "reason": {
+      "en": "Too many actives at once overwhelms skin even if individually compatible.",
+      "ko": "개별적으로는 호환되더라도 한꺼번에 너무 많은 활성 성분은 피부를 압도합니다."
+    },
+    "reasonDetail": {
+      "en": "Even when individual pairings are safe, using 3 or more potent actives in one routine creates cumulative stress on the skin barrier. The skin can only process so much at once. Signs of overload: increased sensitivity, persistent redness, breakouts in new areas, and skin that feels 'tired' or doesn't improve.",
+      "ko": "개별 조합이 안전하더라도, 한 루틴에 3개 이상의 강한 활성 성분을 사용하면 피부 장벽에 누적 스트레스가 발생합니다. 피부는 한 번에 처리할 수 있는 양이 한정되어 있습니다. 과부하 징후: 민감도 증가, 지속적인 홍조, 새로운 부위의 트러블, '피곤해 보이는' 피부."
+    },
+    "fix": {
+      "en": "Max 2 strong actives per routine. Distribute across AM/PM and days.",
+      "ko": "루틴당 강한 활성 성분은 최대 2개. AM/PM과 요일에 분산하세요."
+    },
+    "fixDetail": {
+      "en": "Rule of thumb: maximum 1-2 potent actives per routine, maximum 2-3 per day (split AM/PM). Distribute your actives across the week. Example: Mon/Wed/Fri PM = Retinol, Tue/Thu PM = AHA, Every AM = Vitamin C + Niacinamide (these are gentle enough to pair daily). Sunday = recovery day.",
+      "ko": "경험법칙: 루틴당 강한 활성 성분 최대 1-2개, 하루 최대 2-3개(AM/PM 분리). 활성 성분을 한 주에 걸쳐 분산하세요. 예: 월수금 PM = 레티놀, 화목 PM = AHA, 매일 AM = 비타민C + 나이아신아마이드(이 둘은 매일 함께 사용할 만큼 순합니다). 일요일 = 회복일."
+    },
+    "severityWeight": 5
+  },
+  {
+    "id": "S01_ha_ceramide",
+    "level": 3,
+    "type": "mutual",
+    "a": ["hyaluronic_acid", "sodium_hyaluronate_crosspolymer", "low_molecular_ha"],
+    "b": ["ceramide_np", "ceramide_ap", "ceramide_eop"],
+    "title": {
+      "en": "Hyaluronic Acid + Ceramide",
+      "ko": "히알루론산 + 세라마이드"
+    },
+    "reason": {
+      "en": "Dream team: HA pulls moisture in, ceramides lock it in.",
+      "ko": "드림팀: HA가 수분을 끌어오고, 세라마이드가 가둡니다."
+    },
+    "reasonDetail": {
+      "en": "Hyaluronic acid is a humectant that draws water into the skin. Ceramides are barrier lipids that prevent that water from escaping. Together they provide both hydration and moisture retention — the complete moisturizing solution. This is one of the most universally recommended skincare combinations by dermatologists.",
+      "ko": "히알루론산은 피부로 물을 끌어당기는 보습제입니다. 세라마이드는 그 물이 빠져나가지 못하게 하는 장벽 지질입니다. 함께 사용하면 수분 공급과 수분 유지를 동시에 제공합니다 — 완전한 보습 솔루션입니다. 피부과 전문의가 가장 보편적으로 추천하는 스킨케어 조합 중 하나입니다."
+    },
+    "fix": {
+      "en": "Use together freely. HA serum first, ceramide cream after.",
+      "ko": "자유롭게 함께 사용하세요. HA 세럼 먼저, 세라마이드 크림 나중에."
+    },
+    "fixDetail": {
+      "en": "Apply HA serum to damp skin, then seal with ceramide-rich moisturizer. This works in both AM and PM routines. For extra dry skin, you can even layer multiple HA products before the ceramide cream.",
+      "ko": "습한 피부에 HA 세럼을 바르고, 세라마이드가 풍부한 보습제로 마무리하세요. AM과 PM 루틴 모두에서 사용 가능합니다. 매우 건조한 피부는 세라마이드 크림 전에 여러 HA 제품을 레이어링할 수도 있습니다."
+    },
+    "severityWeight": 0
+  },
+  {
+    "id": "S02_vitc_vite",
+    "level": 3,
+    "type": "mutual",
+    "a": ["l_ascorbic_acid", "ascorbyl_glucoside", "ethyl_ascorbic_acid", "magnesium_ascorbyl_phosphate", "sodium_ascorbyl_phosphate", "ascorbyl_tetraisopalmitate"],
+    "b": ["tocopherol", "tocopheryl_acetate"],
+    "title": {
+      "en": "Vitamin C + Vitamin E",
+      "ko": "비타민C + 비타민E"
+    },
+    "reason": {
+      "en": "Antioxidant power duo: they regenerate each other.",
+      "ko": "항산화 파워 듀오: 서로를 재생합니다."
+    },
+    "reasonDetail": {
+      "en": "Vitamin C and E work synergistically — when Vitamin E neutralizes a free radical and becomes oxidized, Vitamin C can regenerate it back to its active form. Research shows the combination provides 4x more UV protection than either alone. Adding ferulic acid makes it even more potent (CE Ferulic).",
+      "ko": "비타민C와 E는 시너지 효과를 냅니다 — 비타민E가 자유 라디칼을 중화하고 산화되면, 비타민C가 다시 활성 형태로 재생할 수 있습니다. 연구에 따르면 이 조합은 각각 단독 사용보다 4배 더 많은 자외선 보호를 제공합니다. 페룰산을 추가하면 더욱 강력해집니다(CE 페룰릭)."
+    },
+    "fix": {
+      "en": "Use together! Look for serums that contain both, or layer.",
+      "ko": "함께 사용하세요! 둘 다 포함된 세럼을 찾거나, 레이어링하세요."
+    },
+    "fixDetail": {
+      "en": "Many high-end serums (like SkinCeuticals CE Ferulic) already combine both. If using separately, apply Vitamin C serum first, then a moisturizer with Vitamin E. Best used in AM routine for daytime antioxidant protection alongside sunscreen.",
+      "ko": "많은 고급 세럼(예: 스킨수티컬즈 CE 페룰릭)이 이미 둘 다 포함하고 있습니다. 별도로 사용할 경우, 비타민C 세럼을 먼저 바르고 비타민E가 포함된 보습제를 바르세요. 선크림과 함께 낮 시간 항산화 보호를 위해 AM 루틴에서 사용하는 것이 가장 좋습니다."
+    },
+    "severityWeight": 0
+  },
+  {
+    "id": "S03_niacinamide_zinc",
+    "level": 3,
+    "type": "mutual",
+    "a": ["niacinamide"],
+    "b": ["zinc_pca"],
+    "title": {
+      "en": "Niacinamide + Zinc",
+      "ko": "나이아신아마이드 + 징크"
+    },
+    "reason": {
+      "en": "Oil control power pair. Both regulate sebum production.",
+      "ko": "피지 조절 파워 페어. 둘 다 피지 생성을 조절합니다."
+    },
+    "reasonDetail": {
+      "en": "Niacinamide regulates sebum at the cellular level while zinc PCA provides additional oil-absorbing and antibacterial benefits. Together they significantly reduce shine, minimize pore appearance, and help prevent acne — without the irritation of harsher actives like retinoids or BHA.",
+      "ko": "나이아신아마이드는 세포 수준에서 피지를 조절하고, 징크PCA는 추가적인 유분 흡수와 항균 효과를 제공합니다. 함께 사용하면 번들거림을 크게 줄이고, 모공을 축소하며, 여드름 예방에 도움이 됩니다 — 레티노이드나 BHA 같은 더 강한 활성 성분의 자극 없이."
+    },
+    "fix": {
+      "en": "Use together freely. Great as an AM serum for oily skin.",
+      "ko": "자유롭게 함께 사용하세요. 지성 피부 AM 세럼으로 훌륭합니다."
+    },
+    "fixDetail": {
+      "en": "Apply a niacinamide + zinc serum in the morning under moisturizer and sunscreen. The Ordinary's Niacinamide 10% + Zinc 1% is the classic example of this combination. Works well as a daily AM staple for oily/combo skin types.",
+      "ko": "아침에 보습제와 선크림 전에 나이아신아마이드 + 징크 세럼을 바르세요. 디오디너리의 나이아신아마이드 10% + 징크 1%가 이 조합의 대표적인 예입니다. 지성/복합 피부 타입에 매일 AM 스테이플로 잘 작동합니다."
+    },
+    "severityWeight": 0
+  },
+  {
+    "id": "S04_centella_panthenol",
+    "level": 3,
+    "type": "mutual",
+    "a": ["centella_asiatica", "madecassic_acid", "asiaticoside"],
+    "b": ["panthenol"],
+    "title": {
+      "en": "Centella + Panthenol",
+      "ko": "센텔라 + 판테놀"
+    },
+    "reason": {
+      "en": "Ultimate soothing duo. Perfect for irritated or damaged skin.",
+      "ko": "궁극의 진정 듀오. 자극받거나 손상된 피부에 완벽합니다."
+    },
+    "reasonDetail": {
+      "en": "Centella asiatica (CICA) calms inflammation and promotes wound healing, while panthenol (provitamin B5) deeply moisturizes and supports barrier repair. Together they're the go-to combination for post-procedure recovery, irritated skin, and barrier repair. This is why many K-beauty CICA creams contain both.",
+      "ko": "센텔라(시카)는 염증을 진정하고 상처 치유를 촉진하며, 판테놀(프로비타민B5)은 깊은 보습과 장벽 복원을 지원합니다. 함께 사용하면 시술 후 회복, 자극받은 피부, 장벽 복원을 위한 최적의 조합입니다. 많은 K-뷰티 시카 크림이 둘 다 포함하는 이유입니다."
+    },
+    "fix": {
+      "en": "Use together freely. Especially good after retinoid or acid use.",
+      "ko": "자유롭게 함께 사용하세요. 특히 레티노이드나 산 사용 후에 좋습니다."
+    },
+    "fixDetail": {
+      "en": "Apply centella and panthenol products after your actives (retinoids, acids) to calm and repair. Great for recovery days in your skin cycling routine. Can be used AM and PM without any concerns.",
+      "ko": "활성 성분(레티노이드, 산) 후에 센텔라와 판테놀 제품을 바르면 진정과 복원에 좋습니다. 스킨사이클 루틴의 회복일에 훌륭합니다. AM과 PM 모두 걱정 없이 사용 가능합니다."
+    },
+    "severityWeight": 0
+  },
+  {
+    "id": "S05_peptide_ha",
+    "level": 3,
+    "type": "mutual",
+    "a": ["peptide_matrixyl", "peptide_copper", "peptide_argireline", "peptide_buffet", "egf"],
+    "b": ["hyaluronic_acid", "sodium_hyaluronate_crosspolymer", "low_molecular_ha"],
+    "title": {
+      "en": "Peptides + Hyaluronic Acid",
+      "ko": "펩타이드 + 히알루론산"
+    },
+    "reason": {
+      "en": "Anti-aging + deep hydration. Peptides work better in hydrated skin.",
+      "ko": "안티에이징 + 깊은 보습. 펩타이드는 수분이 충분한 피부에서 더 잘 작용합니다."
+    },
+    "reasonDetail": {
+      "en": "Peptides signal skin to produce collagen and repair, while HA provides the hydrated environment that maximizes peptide penetration and effectiveness. Dehydrated skin has a compromised barrier that can actually prevent peptides from working properly.",
+      "ko": "펩타이드는 피부에 콜라겐 생성과 복원을 신호하고, HA는 펩타이드의 침투와 효과를 극대화하는 수분 환경을 제공합니다. 탈수된 피부는 손상된 장벽으로 인해 펩타이드가 제대로 작용하지 못할 수 있습니다."
+    },
+    "fix": {
+      "en": "HA serum on damp skin first → peptide serum on top.",
+      "ko": "습한 피부에 HA 세럼 먼저 → 그 위에 펩타이드 세럼."
+    },
+    "fixDetail": {
+      "en": "Apply HA to damp skin, wait 1 minute, then apply peptide serum. Both work well in AM and PM routines. Note: avoid using copper peptides with strong acids (Vitamin C, AHA) as they can deactivate each other.",
+      "ko": "습한 피부에 HA를 바르고 1분 기다린 후 펩타이드 세럼을 바르세요. AM과 PM 루틴 모두에서 잘 작동합니다. 참고: 구리 펩타이드는 강한 산(비타민C, AHA)과 함께 사용하지 마세요. 서로 비활성화시킬 수 있습니다."
+    },
+    "severityWeight": 0
+  },
+  {
+    "id": "S06_aha_squalane",
+    "level": 3,
+    "type": "mutual",
+    "a": ["glycolic_acid", "lactic_acid", "mandelic_acid"],
+    "b": ["squalane"],
+    "title": {
+      "en": "AHA + Squalane",
+      "ko": "AHA + 스쿠알란"
+    },
+    "reason": {
+      "en": "Exfoliation + lightweight moisture. Squalane calms post-acid skin.",
+      "ko": "각질 제거 + 가벼운 보습. 스쿠알란이 산 사용 후 피부를 진정시킵니다."
+    },
+    "reasonDetail": {
+      "en": "AHAs exfoliate and can leave skin feeling raw. Squalane is a lightweight, non-comedogenic oil that closely mimics skin's natural sebum. It provides a protective layer over freshly exfoliated skin without clogging pores or interfering with the acid's action.",
+      "ko": "AHA는 각질을 제거하고 피부가 벗겨진 느낌을 남길 수 있습니다. 스쿠알란은 피부 천연 피지와 유사한 가볍고 비코메도제닉한 오일입니다. 모공을 막거나 산의 작용을 방해하지 않으면서 새로 각질 제거된 피부 위에 보호막을 제공합니다."
+    },
+    "fix": {
+      "en": "Apply AHA first, let absorb, then squalane oil to seal.",
+      "ko": "AHA를 먼저 바르고, 흡수시킨 후, 스쿠알란 오일로 마무리."
+    },
+    "fixDetail": {
+      "en": "After your AHA product has absorbed (5-10 minutes), apply 3-4 drops of squalane oil. This creates a moisture barrier over the freshly exfoliated skin, reducing sensitivity and supporting overnight repair. Especially effective for dry skin types using AHAs.",
+      "ko": "AHA 제품이 흡수된 후(5-10분), 스쿠알란 오일 3-4방울을 바르세요. 새로 각질 제거된 피부 위에 수분 장벽을 만들어 민감도를 줄이고 야간 복원을 지원합니다. 특히 AHA를 사용하는 건성 피부 타입에 효과적입니다."
+    },
+    "severityWeight": 0
+  },
+  {
+    "id": "S07_retinoid_ceramide",
+    "level": 3,
+    "type": "mutual",
+    "a": ["retinol", "tretinoin", "retinyl_palmitate", "retinaldehyde", "adapalene", "hydroxypinacolone_retinoate"],
+    "b": ["ceramide_np", "ceramide_ap", "ceramide_eop"],
+    "title": {
+      "en": "Retinoid + Ceramide",
+      "ko": "레티노이드 + 세라마이드"
+    },
+    "reason": {
+      "en": "Ceramides buffer retinoid irritation and repair the barrier.",
+      "ko": "세라마이드가 레티노이드 자극을 완화하고 장벽을 복원합니다."
+    },
+    "reasonDetail": {
+      "en": "Retinoids can weaken the skin barrier as they increase cell turnover. Ceramides restore and maintain the lipid barrier, counteracting retinoid-induced dryness and irritation. This is why dermatologists recommend using a ceramide moisturizer when starting retinoids.",
+      "ko": "레티노이드는 세포 재생을 촉진하면서 피부 장벽을 약화시킬 수 있습니다. 세라마이드는 지질 장벽을 복원하고 유지하여 레티노이드로 인한 건조와 자극을 상쇄합니다. 피부과 전문의가 레티노이드 시작 시 세라마이드 보습제를 추천하는 이유입니다."
+    },
+    "fix": {
+      "en": "Apply retinoid, then ceramide cream on top. Perfect combo.",
+      "ko": "레티노이드를 바르고, 그 위에 세라마이드 크림. 완벽한 조합."
+    },
+    "fixDetail": {
+      "en": "The 'retinoid sandwich' technique: Apply ceramide moisturizer → wait 5 min → retinoid → wait 5 min → another layer of ceramide moisturizer. This buffers irritation while maintaining retinoid efficacy. Essential for retinoid beginners and sensitive skin types.",
+      "ko": "'레티노이드 샌드위치' 기법: 세라마이드 보습제 바르기 → 5분 대기 → 레티노이드 → 5분 대기 → 세라마이드 보습제 한 번 더. 레티노이드 효능을 유지하면서 자극을 완화합니다. 레티노이드 초보자와 민감 피부 타입에 필수입니다."
+    },
+    "severityWeight": 0
+  },
+  {
+    "id": "S08_spf_antioxidants",
+    "level": 3,
+    "type": "mutual",
+    "a": ["zinc_oxide", "titanium_dioxide"],
+    "b": ["l_ascorbic_acid", "ascorbyl_glucoside", "ethyl_ascorbic_acid", "tocopherol", "ferulic_acid", "resveratrol", "green_tea", "ubiquinone"],
+    "title": {
+      "en": "SPF + Antioxidants",
+      "ko": "SPF + 항산화제"
+    },
+    "reason": {
+      "en": "The ultimate defense duo: SPF blocks UV, antioxidants catch what slips through.",
+      "ko": "궁극의 방어 듀오: SPF가 자외선을 차단하고, 항산화제가 빠져나간 것을 잡습니다."
+    },
+    "reasonDetail": {
+      "en": "No sunscreen blocks 100% of UV rays. Antioxidants (Vitamin C, E, Ferulic acid, green tea extract) neutralize the free radicals generated by the UV that does get through. Research shows antioxidant + SPF provides significantly better photoprotection than SPF alone, reducing UV damage, pigmentation, and signs of aging.",
+      "ko": "어떤 선크림도 100% 자외선을 차단하지 못합니다. 항산화제(비타민C, E, 페룰산, 녹차 추출물)가 통과한 자외선이 생성하는 자유 라디칼을 중화합니다. 연구에 따르면 항산화제 + SPF는 SPF 단독보다 훨씬 우수한 광보호를 제공하여 자외선 손상, 색소침착, 노화 징후를 줄입니다."
+    },
+    "fix": {
+      "en": "Antioxidant serum first → moisturizer → SPF on top. Every morning.",
+      "ko": "항산화 세럼 먼저 → 보습제 → SPF 마지막. 매일 아침."
+    },
+    "fixDetail": {
+      "en": "Morning routine foundation: Cleanser → Antioxidant serum (Vitamin C, or CE Ferulic) → Moisturizer → Sunscreen SPF 30+. This is the gold standard morning routine recommended by dermatologists worldwide. The antioxidant layer enhances your sunscreen's protection by up to 4-8x.",
+      "ko": "아침 루틴의 기본: 클렌저 → 항산화 세럼(비타민C 또는 CE 페룰릭) → 보습제 → 선크림 SPF 30+. 전 세계 피부과 전문의가 추천하는 골드 스탠다드 아침 루틴입니다. 항산화 레이어가 선크림의 보호 효과를 최대 4-8배 향상시킵니다."
+    },
+    "severityWeight": 0
+  }
+]

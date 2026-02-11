@@ -1,0 +1,235 @@
+{
+  "onboarding": {
+    "slide1": {
+      "title": "Retinol + Vitamin C — are you using them together?",
+      "body": "Check if your daily products are safe to use together"
+    },
+    "slide2": {
+      "title": "Scan & Analyze Instantly",
+      "body": "Scan the ingredient label\nand AI checks conflicts instantly"
+    },
+    "slide3": {
+      "title": "Red = Risk, Green = Safe",
+      "body": "Color-coded cards make it easy\nto understand product compatibility"
+    },
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Get Started"
+  },
+  "home": {
+    "title": "Beauty Box",
+    "subtitle": "{{count}} products registered",
+    "empty": {
+      "title": "Your Beauty Box is empty",
+      "body": "Add products to check\ningredient compatibility",
+      "cta": "Add Your First Product"
+    },
+    "addProduct": "Add Product",
+    "analyze": "Check Compatibility",
+    "selectPrompt": "Select 2+ products to analyze",
+    "selected": "{{count}} selected",
+    "product": {
+      "delete": "Delete Product",
+      "deleteConfirm": "Delete this product?"
+    }
+  },
+  "scan": {
+    "title": "Scan Ingredients",
+    "guide": "Point camera at the ingredient label",
+    "processing": "Reading ingredients...",
+    "retry": "Retake",
+    "confirm": "Is this correct?",
+    "edit": "Edit Manually",
+    "done": "Confirm",
+    "fail": "Could not recognize ingredients",
+    "failRetry": "Please retry or enter manually",
+    "permission": {
+      "title": "Camera Permission Needed",
+      "body": "Allow camera access\nto scan ingredient labels",
+      "allow": "Allow"
+    },
+    "gallery": "Choose from Gallery"
+  },
+  "register": {
+    "title": "Register Product",
+    "name": {
+      "_self": "Product Name",
+      "placeholder": "e.g. Toner, Serum, Cream..."
+    },
+    "brand": {
+      "_self": "Brand",
+      "placeholder": "e.g. COSRX, Innisfree..."
+    },
+    "category": {
+      "_self": "Category",
+      "toner": "Toner",
+      "serum": "Serum / Essence",
+      "cream": "Cream / Lotion",
+      "cleanser": "Cleanser",
+      "sunscreen": "Sunscreen",
+      "mask": "Mask / Pack",
+      "other": "Other"
+    },
+    "ingredients": {
+      "_self": "Ingredient List",
+      "placeholder": "Enter or scan ingredients"
+    },
+    "scanBtn": "Scan to Input",
+    "save": "Save",
+    "saved": "Product registered",
+    "duplicate": "Product already registered"
+  },
+  "results": {
+    "title": "Compatibility Results",
+    "subtitle": "{{product1}} × {{product2}}",
+    "safe": "Safe combination! ✅",
+    "warning": "This combo needs caution",
+    "danger": "Risky combination! 🚫",
+    "card": {
+      "conflict": "Conflict",
+      "caution": "Caution",
+      "synergy": "Synergy",
+      "conflictDesc": "Using together may cause\nirritation or reduced efficacy",
+      "cautionDesc": "Pay attention to application\norder or time interval",
+      "synergyDesc": "Using together may\nenhance effectiveness"
+    },
+    "detail": {
+      "_self": "View Details",
+      "ingredient": "Related Ingredients",
+      "reason": "Reason",
+      "tip": "💡 Usage Tip",
+      "source": "Source"
+    },
+    "share": "Share Results",
+    "save": "Save Results",
+    "reanalyze": "Analyze Another Combo",
+    "premium": {
+      "locked": "Detailed analysis is a premium feature",
+      "unlock": "Unlock with Premium"
+    }
+  },
+  "history": {
+    "title": "Analysis History",
+    "empty": "No analysis history yet",
+    "date": "Analyzed on {{date}}",
+    "conflicts": "{{count}} conflict(s)",
+    "cautions": "{{count}} caution(s)",
+    "synergies": "{{count}} synergy(ies)",
+    "delete": "Delete Record",
+    "deleteConfirm": "Delete this analysis record?"
+  },
+  "paywall": {
+    "title": "SelfShelf Premium",
+    "subtitle": "Protect your skin smarter",
+    "feature1": "🔴 Detailed conflict analysis",
+    "feature2": "📊 Unlimited analysis history",
+    "feature3": "🧪 200+ ingredient database",
+    "feature4": "🚫 Ad-free experience",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "monthlyPrice": "$2.99/mo",
+    "yearlyPrice": "$29.99/yr",
+    "yearlySave": "Save 36%",
+    "subscribe": "Start Premium",
+    "restore": "Restore Purchase",
+    "terms": "Cancel anytime",
+    "freeTrial": "7-day free trial"
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "premium": "Manage Premium",
+    "premiumActive": "Premium Active",
+    "notification": "Notifications",
+    "language": "Language",
+    "info": "Information",
+    "version": "App Version",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "licenses": "Open Source Licenses",
+    "contact": "Contact Us",
+    "rate": "Rate This App",
+    "data": "Data",
+    "export": "Export Data",
+    "deleteAccount": "Delete Account",
+    "deleteConfirm": "Delete your account?\nAll data will be permanently removed.",
+    "logout": "Log Out"
+  },
+  "tab": {
+    "home": "Beauty Box",
+    "scan": "Scan",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "common": {
+    "confirm": "OK",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "close": "Close",
+    "back": "Back",
+    "done": "Done",
+    "edit": "Edit",
+    "retry": "Retry",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "networkError": "Please check your internet connection",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search",
+    "noResults": "No results found"
+  },
+  "appstore": {
+    "name": "SelfShelf - Skincare Conflict Checker",
+    "subtitle": "Check if your products clash",
+    "keywords": "skincare,ingredients,conflict,compatibility,routine,analyzer",
+    "promoText": "Are your skincare products safe together? Check ingredient conflicts instantly!",
+    "description": "📱 SelfShelf - Skincare Ingredient Conflict Analyzer\n\nWondering if your daily products are safe to use together?\nSelfShelf analyzes ingredients and flags potential conflicts.\n\n🔍 Key Features\n• Camera OCR ingredient scanning\n• AI-powered conflict detection\n• Red/Yellow/Green result cards\n• 200+ ingredient database\n• Analysis history\n\n💡 Perfect for\n• Multi-product skincare users\n• Those curious about skin irritation causes\n• Beauty enthusiasts who care about ingredients"
+  },
+  "push": {
+    "welcome": {
+      "title": "Welcome! 👋",
+      "body": "Register your first product\nand check compatibility"
+    },
+    "reminder": {
+      "title": "Checked your routine today?",
+      "body": "Got new products?\nCheck their compatibility 🧴"
+    },
+    "update": {
+      "title": "Ingredient DB Updated",
+      "body": "{{count}} ingredients added"
+    }
+  },
+  "inapp": {
+    "ratePrompt": "Finding the app helpful?\nRate us on the store ⭐",
+    "premiumPrompt": "{{remaining}} free analyses left",
+    "sharePrompt": "Share with friends\nand get 3 free analyses!"
+  },
+  "error": {
+    "ocr": {
+      "blur": "Image is blurry.\nPlease retake",
+      "noText": "No ingredient text found",
+      "partial": "Only some ingredients detected.\nPlease enter the rest manually"
+    },
+    "analysis": {
+      "noIngredients": "No ingredients found.\nPlease add ingredients first",
+      "sameProduct": "Cannot analyze\nthe same product",
+      "timeout": "Analysis timed out.\nPlease try again"
+    },
+    "network": {
+      "offline": "You're offline.\nCheck your connection",
+      "server": "Cannot reach server.\nPlease try again later"
+    },
+    "purchase": {
+      "failed": "Purchase failed.\nPlease try again",
+      "restored": "Purchase restored",
+      "noRestore": "No purchases to restore"
+    },
+    "storage": {
+      "full": "Storage is full"
+    },
+    "permission": {
+      "camera": "Camera access denied.\nPlease update in Settings"
+    }
+  }
+}
