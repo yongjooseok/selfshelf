@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -6,10 +6,14 @@ import {
   StyleSheet,
   Alert,
   TouchableOpacity,
+  Animated,
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { LinearGradient } from 'expo-linear-gradient'; // Gradient 추가
+import { Plus, BarChart3 } from 'lucide-react-native';
+
 import { useProductStore } from '../../src/store/productStore';
 import { ProductCard } from '../../src/components/ProductCard';
 import { Button } from '../../src/components/Button';
@@ -28,6 +32,9 @@ export default function HomeScreen() {
   const removeProduct = useProductStore((s) => s.remove);
 
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+
+  // Pulse Animation for Analyze Button
+  const pulseAnim = useRef(new Animated.Value(1)).current;
 
   // 제품이 삭제되면 selectedIds에서 제거
   useEffect(() => {
@@ -50,6 +57,28 @@ export default function HomeScreen() {
       return next;
     });
   }, []);
+
+  // 2개 이상 선택 시 펄스 애니메이션 작동
+  useEffect(() => {
+    if (selectedIds.size >= 2) {
+      Animated.loop(
+        Animated.sequence([
+          Animated.timing(pulseAnim, {
+            toValue: 1.05,
+            duration: 800,
+            useNativeDriver: true,
+          }),
+          Animated.timing(pulseAnim, {
+            toValue: 1,
+            duration: 800,
+            useNativeDriver: true,
+          }),
+        ])
+      ).start();
+    } else {
+      pulseAnim.setValue(1); // Reset
+    }
+  }, [selectedIds.size, pulseAnim]);
 
   const handleDelete = useCallback(
     (id: string) => {
@@ -111,7 +140,7 @@ export default function HomeScreen() {
   );
 
   // ────────────────────────────────────────────
-  // 헤더 (제품 있을 때만 subtitle + addProduct 표시)
+  // 헤더 (제품 있을 때만 subtitle 표시)
   // ────────────────────────────────────────────
   const renderHeader = () => (
     <>
@@ -148,12 +177,18 @@ export default function HomeScreen() {
 
         {hasProducts && (
           <TouchableOpacity
-            style={styles.addBtn}
             onPress={() => router.push('/register')}
-            activeOpacity={0.7}
+            activeOpacity={0.8}
           >
-            <Text style={styles.addBtnIcon}>+</Text>
-            <Text style={styles.addBtnLabel}>{t('home.addProduct')}</Text>
+            <LinearGradient
+              colors={[COLORS.accentLight, COLORS.accent]}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={styles.addBtnGradient}
+            >
+              <Plus color={COLORS.white} size={20} />
+              <Text style={styles.addBtnLabel}>{t('home.addProduct')}</Text>
+            </LinearGradient>
           </TouchableOpacity>
         )}
       </View>
@@ -187,12 +222,21 @@ export default function HomeScreen() {
             { paddingBottom: Math.max(insets.bottom, 16) + 84 },
           ]}
         >
-          <Button
-            title={`${t('home.analyze')}  (${selectedIds.size})`}
-            onPress={handleAnalyze}
-            size="lg"
-            style={styles.analyzeBtn}
-          />
+          <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
+            <TouchableOpacity onPress={handleAnalyze} activeOpacity={0.8}>
+              <LinearGradient
+                colors={[COLORS.accent, '#6A5ACD']}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+                style={styles.analyzeBtnGradient}
+              >
+                <BarChart3 color={COLORS.white} size={20} style={{ marginRight: 8 }} />
+                <Text style={styles.analyzeBtnText}>
+                  {`${t('home.analyze')} (${selectedIds.size})`}
+                </Text>
+              </LinearGradient>
+            </TouchableOpacity>
+          </Animated.View>
         </View>
       )}
     </View>
@@ -210,54 +254,54 @@ const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'flex-end',
+    alignItems: 'center', // Center alignment for cleaner look
     paddingHorizontal: SPACING.lg,
-    paddingTop: SPACING.md,
-    paddingBottom: SPACING.md,
+    paddingTop: SPACING.lg, // More top padding
+    paddingBottom: SPACING.lg,
   },
   title: {
     fontSize: FONT_SIZE.xxl,
-    fontWeight: '700',
+    fontWeight: '800', // Bolder title
     color: COLORS.text,
     letterSpacing: -0.5,
   },
   subtitle: {
     fontSize: FONT_SIZE.sm,
     color: COLORS.textSub,
-    marginTop: 2,
+    marginTop: 4,
   },
-  addBtn: {
+  addBtnGradient: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: COLORS.surfaceLight,
     paddingHorizontal: SPACING.md,
     paddingVertical: SPACING.sm,
     borderRadius: BORDER_RADIUS.xl,
-    gap: 4,
-  },
-  addBtnIcon: {
-    fontSize: FONT_SIZE.md,
-    fontWeight: '600',
-    color: COLORS.accent,
+    gap: 6,
+    // Add Shadow
+    shadowColor: COLORS.accent,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 4,
   },
   addBtnLabel: {
     fontSize: FONT_SIZE.sm,
-    fontWeight: '600',
-    color: COLORS.accent,
+    fontWeight: '700',
+    color: COLORS.white,
   },
 
   // ── 선택 안내 배너 ──
   promptBanner: {
-    backgroundColor: COLORS.surface,
+    backgroundColor: 'rgba(255,255,255,0.03)', // very subtle
     marginBottom: SPACING.md,
-    paddingVertical: SPACING.sm + 2,
+    paddingVertical: SPACING.sm + 4,
     paddingHorizontal: SPACING.md,
-    borderRadius: BORDER_RADIUS.sm,
+    borderRadius: BORDER_RADIUS.md,
     borderWidth: 1,
-    borderColor: COLORS.border,
+    borderColor: 'rgba(255,255,255,0.05)',
   },
   promptBannerActive: {
-    backgroundColor: 'rgba(124,106,255,0.08)',
+    backgroundColor: 'rgba(124,106,255,0.1)',
     borderColor: COLORS.accent,
   },
   promptText: {
@@ -267,7 +311,7 @@ const styles = StyleSheet.create({
   },
   promptTextActive: {
     fontSize: FONT_SIZE.sm,
-    fontWeight: '600',
+    fontWeight: '700',
     color: COLORS.accent,
     textAlign: 'center',
   },
@@ -326,11 +370,23 @@ const styles = StyleSheet.create({
     right: 0,
     paddingHorizontal: SPACING.lg,
     paddingTop: SPACING.md,
-    backgroundColor: COLORS.bg,
-    borderTopWidth: 1,
-    borderTopColor: COLORS.border,
+    // Gradient overlay could be adding here for fading effect, keeping generic View for now 
   },
-  analyzeBtn: {
-    width: '100%',
+  analyzeBtnGradient: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: SPACING.md,
+    borderRadius: BORDER_RADIUS.lg,
+    shadowColor: COLORS.accent,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.4,
+    shadowRadius: 10,
+    elevation: 8,
+  },
+  analyzeBtnText: {
+    fontSize: FONT_SIZE.lg,
+    fontWeight: '700',
+    color: COLORS.white,
   },
 });

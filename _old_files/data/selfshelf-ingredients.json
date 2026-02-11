@@ -1,0 +1,3830 @@
+[
+  {
+    "id": "retinol",
+    "inciName": "Retinol",
+    "koName": "레티놀",
+    "aliases": [
+      "retinol",
+      "vitamin a",
+      "vitamin a alcohol",
+      "비타민a",
+      "비타민 에이",
+      "레티놀"
+    ],
+    "class": [
+      "retinoid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Vitamin A derivative that boosts cell turnover, reduces wrinkles, and improves skin texture.",
+      "ko": "비타민A 유도체로 세포 재생을 촉진하고 주름을 개선하며 피부결을 정돈합니다."
+    }
+  },
+  {
+    "id": "tretinoin",
+    "inciName": "Tretinoin",
+    "koName": "트레티노인",
+    "aliases": [
+      "tretinoin",
+      "retinoic acid",
+      "all-trans retinoic acid",
+      "트레티노인",
+      "레티노산",
+      "레티노익산"
+    ],
+    "class": [
+      "retinoid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Prescription-strength retinoid for acne and anti-aging. Strongest form of vitamin A.",
+      "ko": "여드름과 항노화에 사용되는 처방 레티노이드. 가장 강력한 비타민A 형태입니다."
+    }
+  },
+  {
+    "id": "retinyl_palmitate",
+    "inciName": "Retinyl Palmitate",
+    "koName": "레티닐팔미테이트",
+    "aliases": [
+      "retinyl palmitate",
+      "retinol palmitate",
+      "vitamin a palmitate",
+      "레티닐팔미테이트",
+      "레티닐 팔미테이트"
+    ],
+    "class": [
+      "retinoid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Gentle retinoid ester. Milder than retinol, suitable for sensitive skin.",
+      "ko": "순한 레티노이드 에스터. 레티놀보다 자극이 적어 민감 피부에 적합합니다."
+    }
+  },
+  {
+    "id": "retinaldehyde",
+    "inciName": "Retinaldehyde",
+    "koName": "레티날데하이드",
+    "aliases": [
+      "retinaldehyde",
+      "retinal",
+      "레티날",
+      "레티날데하이드",
+      "레티날데히드"
+    ],
+    "class": [
+      "retinoid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Retinoid one step closer to retinoic acid than retinol. Effective yet less irritating.",
+      "ko": "레티놀보다 레티노산에 한 단계 더 가까운 레티노이드. 효과적이면서 자극이 적습니다."
+    }
+  },
+  {
+    "id": "adapalene",
+    "inciName": "Adapalene",
+    "koName": "아다팔렌",
+    "aliases": [
+      "adapalene",
+      "differin",
+      "아다팔렌",
+      "디페린"
+    ],
+    "class": [
+      "retinoid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Synthetic retinoid primarily used for acne treatment. Available OTC in low concentrations.",
+      "ko": "여드름 치료에 주로 사용되는 합성 레티노이드. 저농도는 일반의약품으로 구입 가능합니다."
+    }
+  },
+  {
+    "id": "hydroxypinacolone_retinoate",
+    "inciName": "Hydroxypinacolone Retinoate",
+    "koName": "하이드록시피나콜론리티노에이트",
+    "aliases": [
+      "hydroxypinacolone retinoate",
+      "hpr",
+      "granactive retinoid",
+      "하이드록시피나콜론리티노에이트"
+    ],
+    "class": [
+      "retinoid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Next-generation retinoid ester. Minimal irritation with direct retinoic acid receptor binding.",
+      "ko": "차세대 레티노이드 에스터. 레티노산 수용체에 직접 결합하여 자극이 최소화됩니다."
+    }
+  },
+  {
+    "id": "glycolic_acid",
+    "inciName": "Glycolic Acid",
+    "koName": "글리콜산",
+    "aliases": [
+      "glycolic acid",
+      "hydroxyacetic acid",
+      "글리콜산",
+      "글리콜릭산",
+      "글리콜릭애시드",
+      "glycollic acid"
+    ],
+    "class": [
+      "aha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Smallest AHA molecule. Penetrates deeply for effective exfoliation and brightening.",
+      "ko": "가장 작은 AHA 분자. 깊이 침투하여 효과적인 각질 제거와 브라이트닝을 제공합니다."
+    }
+  },
+  {
+    "id": "lactic_acid",
+    "inciName": "Lactic Acid",
+    "koName": "젖산",
+    "aliases": [
+      "lactic acid",
+      "젖산",
+      "락트산",
+      "락틱산",
+      "락틱애시드",
+      "유산"
+    ],
+    "class": [
+      "aha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Gentle AHA that exfoliates while hydrating. Good for dry and sensitive skin types.",
+      "ko": "각질 제거와 보습을 동시에 하는 순한 AHA. 건성 및 민감 피부에 적합합니다."
+    }
+  },
+  {
+    "id": "mandelic_acid",
+    "inciName": "Mandelic Acid",
+    "koName": "만델산",
+    "aliases": [
+      "mandelic acid",
+      "만델산",
+      "만델릭산",
+      "만델릭애시드",
+      "아몬드산"
+    ],
+    "class": [
+      "aha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Large-molecule AHA derived from almonds. Gentle exfoliation, suitable for darker skin tones.",
+      "ko": "아몬드에서 추출한 큰 분자 AHA. 순한 각질 제거로 어두운 피부톤에도 적합합니다."
+    }
+  },
+  {
+    "id": "tartaric_acid",
+    "inciName": "Tartaric Acid",
+    "koName": "타르타르산",
+    "aliases": [
+      "tartaric acid",
+      "타르타르산",
+      "주석산"
+    ],
+    "class": [
+      "aha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "AHA derived from grapes. Often used in combination with other AHAs for balanced exfoliation.",
+      "ko": "포도에서 추출한 AHA. 다른 AHA와 함께 균형 잡힌 각질 제거에 사용됩니다."
+    }
+  },
+  {
+    "id": "citric_acid_active",
+    "inciName": "Citric Acid",
+    "koName": "구연산",
+    "aliases": [
+      "citric acid",
+      "구연산",
+      "시트르산",
+      "시트릭애시드"
+    ],
+    "class": [
+      "aha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "AHA from citrus fruits. Mildest AHA, also used as pH adjuster in many formulations.",
+      "ko": "감귤류에서 추출한 가장 순한 AHA. 많은 제형에서 pH 조절제로도 사용됩니다."
+    }
+  },
+  {
+    "id": "malic_acid",
+    "inciName": "Malic Acid",
+    "koName": "말산",
+    "aliases": [
+      "malic acid",
+      "말산",
+      "사과산",
+      "말릭산"
+    ],
+    "class": [
+      "aha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "AHA derived from apples. Gentle exfoliant often combined with other acids.",
+      "ko": "사과에서 추출한 AHA. 다른 산과 함께 사용되는 순한 각질 제거제입니다."
+    }
+  },
+  {
+    "id": "salicylic_acid",
+    "inciName": "Salicylic Acid",
+    "koName": "살리실산",
+    "aliases": [
+      "salicylic acid",
+      "살리실산",
+      "살리실릭산",
+      "살리실릭애시드",
+      "beta hydroxy acid",
+      "bha",
+      "2-hydroxybenzoic acid"
+    ],
+    "class": [
+      "bha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Oil-soluble BHA that penetrates pores to clear acne and blackheads.",
+      "ko": "모공 속까지 침투하는 지용성 BHA. 여드름과 블랙헤드 제거에 효과적입니다."
+    }
+  },
+  {
+    "id": "betaine_salicylate",
+    "inciName": "Betaine Salicylate",
+    "koName": "베타인살리실레이트",
+    "aliases": [
+      "betaine salicylate",
+      "베타인살리실레이트",
+      "베타인 살리실레이트"
+    ],
+    "class": [
+      "bha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Gentler BHA derivative popular in K-beauty. Less irritating than pure salicylic acid.",
+      "ko": "K-뷰티에서 인기 있는 순한 BHA 유도체. 순수 살리실산보다 자극이 적습니다."
+    }
+  },
+  {
+    "id": "l_ascorbic_acid",
+    "inciName": "Ascorbic Acid",
+    "koName": "아스코르브산",
+    "aliases": [
+      "ascorbic acid",
+      "l-ascorbic acid",
+      "vitamin c",
+      "비타민c",
+      "비타민 씨",
+      "아스코르브산",
+      "아스코빅산",
+      "순수비타민c"
+    ],
+    "class": [
+      "vitamin_c",
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Pure vitamin C. Most potent antioxidant form but unstable and pH-dependent.",
+      "ko": "순수 비타민C. 가장 강력한 항산화 형태이지만 불안정하고 pH에 민감합니다."
+    }
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "inciName": "Ascorbyl Glucoside",
+    "koName": "아스코빌글루코사이드",
+    "aliases": [
+      "ascorbyl glucoside",
+      "aa2g",
+      "아스코빌글루코사이드",
+      "아스코르빌글루코사이드"
+    ],
+    "class": [
+      "vitamin_c",
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Stable vitamin C derivative. Gentler than L-ascorbic acid with good brightening effects.",
+      "ko": "안정적인 비타민C 유도체. 순수 비타민C보다 순하며 브라이트닝 효과가 좋습니다."
+    }
+  },
+  {
+    "id": "ethyl_ascorbic_acid",
+    "inciName": "3-O-Ethyl Ascorbic Acid",
+    "koName": "에틸아스코빅애시드",
+    "aliases": [
+      "ethyl ascorbic acid",
+      "3-o-ethyl ascorbic acid",
+      "에틸아스코빅애시드",
+      "에틸아스코르브산"
+    ],
+    "class": [
+      "vitamin_c",
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Highly stable vitamin C derivative with fast skin penetration.",
+      "ko": "빠른 피부 침투력을 가진 매우 안정적인 비타민C 유도체입니다."
+    }
+  },
+  {
+    "id": "magnesium_ascorbyl_phosphate",
+    "inciName": "Magnesium Ascorbyl Phosphate",
+    "koName": "마그네슘아스코빌포스페이트",
+    "aliases": [
+      "magnesium ascorbyl phosphate",
+      "map",
+      "마그네슘아스코빌포스페이트"
+    ],
+    "class": [
+      "vitamin_c",
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Water-soluble, stable vitamin C derivative. Gentle with hydrating properties.",
+      "ko": "수용성의 안정적인 비타민C 유도체. 순하며 보습 효과도 있습니다."
+    }
+  },
+  {
+    "id": "sodium_ascorbyl_phosphate",
+    "inciName": "Sodium Ascorbyl Phosphate",
+    "koName": "소듐아스코빌포스페이트",
+    "aliases": [
+      "sodium ascorbyl phosphate",
+      "sap",
+      "소듐아스코빌포스페이트"
+    ],
+    "class": [
+      "vitamin_c",
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Stable vitamin C salt form. Anti-acne and brightening properties.",
+      "ko": "안정적인 비타민C 염 형태. 여드름 개선과 브라이트닝 효과가 있습니다."
+    }
+  },
+  {
+    "id": "ascorbyl_tetraisopalmitate",
+    "inciName": "Ascorbyl Tetraisopalmitate",
+    "koName": "아스코빌테트라이소팔미테이트",
+    "aliases": [
+      "ascorbyl tetraisopalmitate",
+      "vc-ip",
+      "아스코빌테트라이소팔미테이트"
+    ],
+    "class": [
+      "vitamin_c",
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Oil-soluble vitamin C derivative. Excellent stability and skin penetration.",
+      "ko": "지용성 비타민C 유도체. 뛰어난 안정성과 피부 침투력을 가집니다."
+    }
+  },
+  {
+    "id": "niacinamide",
+    "inciName": "Niacinamide",
+    "koName": "나이아신아마이드",
+    "aliases": [
+      "niacinamide",
+      "nicotinamide",
+      "vitamin b3",
+      "비타민b3",
+      "나이아신아마이드",
+      "니코틴아마이드",
+      "니코틴산아미드"
+    ],
+    "class": [
+      "niacinamide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Vitamin B3 that reduces pores, brightens, and strengthens skin barrier. Works with almost everything.",
+      "ko": "모공 축소, 브라이트닝, 피부 장벽 강화 효과의 비타민B3. 대부분의 성분과 호환됩니다."
+    }
+  },
+  {
+    "id": "benzoyl_peroxide",
+    "inciName": "Benzoyl Peroxide",
+    "koName": "벤조일퍼옥사이드",
+    "aliases": [
+      "benzoyl peroxide",
+      "bp",
+      "bpo",
+      "벤조일퍼옥사이드",
+      "벤조일퍼록사이드",
+      "과산화벤조일"
+    ],
+    "class": [
+      "benzoyl_peroxide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Antibacterial acne treatment that kills P. acnes bacteria. Can bleach fabrics.",
+      "ko": "여드름균을 죽이는 항균 치료제. 직물을 탈색시킬 수 있으니 주의하세요."
+    }
+  },
+  {
+    "id": "hyaluronic_acid",
+    "inciName": "Hyaluronic Acid",
+    "koName": "히알루론산",
+    "aliases": [
+      "hyaluronic acid",
+      "ha",
+      "sodium hyaluronate",
+      "히알루론산",
+      "히알루론산나트륨",
+      "소듐히알루로네이트",
+      "hyaluronan"
+    ],
+    "class": [
+      "hyaluronic_acid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Powerful humectant that holds 1000x its weight in water. Plumps and hydrates skin.",
+      "ko": "자기 무게의 1000배 수분을 잡는 강력한 보습제. 피부를 탱탱하게 채워줍니다."
+    }
+  },
+  {
+    "id": "ceramide_np",
+    "inciName": "Ceramide NP",
+    "koName": "세라마이드NP",
+    "aliases": [
+      "ceramide np",
+      "ceramide 3",
+      "세라마이드np",
+      "세라마이드3",
+      "세라마이드 엔피"
+    ],
+    "class": [
+      "ceramide",
+      "barrier",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Key skin barrier lipid. Restores and maintains the protective moisture barrier.",
+      "ko": "핵심 피부 장벽 지질. 보호 수분 장벽을 복원하고 유지합니다."
+    }
+  },
+  {
+    "id": "ceramide_ap",
+    "inciName": "Ceramide AP",
+    "koName": "세라마이드AP",
+    "aliases": [
+      "ceramide ap",
+      "ceramide 6-ii",
+      "세라마이드ap",
+      "세라마이드6"
+    ],
+    "class": [
+      "ceramide",
+      "barrier",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Ceramide that promotes natural skin exfoliation and barrier repair.",
+      "ko": "자연스러운 피부 각질 제거와 장벽 복원을 촉진하는 세라마이드입니다."
+    }
+  },
+  {
+    "id": "ceramide_eop",
+    "inciName": "Ceramide EOP",
+    "koName": "세라마이드EOP",
+    "aliases": [
+      "ceramide eop",
+      "ceramide 1",
+      "세라마이드eop",
+      "세라마이드1"
+    ],
+    "class": [
+      "ceramide",
+      "barrier",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Ceramide essential for maintaining skin's lipid barrier structure.",
+      "ko": "피부 지질 장벽 구조 유지에 필수적인 세라마이드입니다."
+    }
+  },
+  {
+    "id": "tocopherol",
+    "inciName": "Tocopherol",
+    "koName": "토코페롤",
+    "aliases": [
+      "tocopherol",
+      "vitamin e",
+      "d-alpha-tocopherol",
+      "alpha-tocopherol",
+      "비타민e",
+      "비타민 이",
+      "토코페롤"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Vitamin E antioxidant. Protects against UV damage and works synergistically with vitamin C.",
+      "ko": "비타민E 항산화제. 자외선 손상을 방지하며 비타민C와 시너지 효과를 냅니다."
+    }
+  },
+  {
+    "id": "tocopheryl_acetate",
+    "inciName": "Tocopheryl Acetate",
+    "koName": "토코페릴아세테이트",
+    "aliases": [
+      "tocopheryl acetate",
+      "vitamin e acetate",
+      "토코페릴아세테이트",
+      "비타민e아세테이트"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Stable form of vitamin E. Provides antioxidant protection and moisturizing benefits.",
+      "ko": "안정적인 비타민E 형태. 항산화 보호와 보습 효과를 제공합니다."
+    }
+  },
+  {
+    "id": "ferulic_acid",
+    "inciName": "Ferulic Acid",
+    "koName": "페룰산",
+    "aliases": [
+      "ferulic acid",
+      "페룰산",
+      "페룰릭산",
+      "페룰릭애시드"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Plant antioxidant that boosts vitamin C and E effectiveness. Key in CE Ferulic serums.",
+      "ko": "비타민C와 E의 효과를 강화하는 식물성 항산화제. CE 페룰릭 세럼의 핵심 성분입니다."
+    }
+  },
+  {
+    "id": "resveratrol",
+    "inciName": "Resveratrol",
+    "koName": "레스베라트롤",
+    "aliases": [
+      "resveratrol",
+      "레스베라트롤"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Polyphenol antioxidant from grapes. Anti-aging and skin-calming properties.",
+      "ko": "포도에서 추출한 폴리페놀 항산화제. 항노화 및 피부 진정 효과가 있습니다."
+    }
+  },
+  {
+    "id": "ubiquinone",
+    "inciName": "Ubiquinone",
+    "koName": "유비퀴논",
+    "aliases": [
+      "ubiquinone",
+      "coenzyme q10",
+      "coq10",
+      "유비퀴논",
+      "코엔자임큐텐",
+      "코큐텐"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Coenzyme Q10 antioxidant. Energizes skin cells and reduces signs of aging.",
+      "ko": "코엔자임Q10 항산화제. 피부 세포에 에너지를 공급하고 노화 징후를 줄입니다."
+    }
+  },
+  {
+    "id": "centella_asiatica",
+    "inciName": "Centella Asiatica Extract",
+    "koName": "병풀추출물",
+    "aliases": [
+      "centella asiatica extract",
+      "centella asiatica",
+      "cica",
+      "병풀추출물",
+      "센텔라",
+      "시카",
+      "madecassoside"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "CICA extract known for calming irritation, aiding wound healing, and strengthening skin barrier.",
+      "ko": "자극 진정, 상처 치유, 피부 장벽 강화로 알려진 시카 추출물입니다."
+    }
+  },
+  {
+    "id": "madecassic_acid",
+    "inciName": "Madecassic Acid",
+    "koName": "마데카식산",
+    "aliases": [
+      "madecassic acid",
+      "마데카식산"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Active compound from centella. Promotes collagen synthesis and wound healing.",
+      "ko": "센텔라의 활성 화합물. 콜라겐 합성과 상처 치유를 촉진합니다."
+    }
+  },
+  {
+    "id": "asiaticoside",
+    "inciName": "Asiaticoside",
+    "koName": "아시아티코사이드",
+    "aliases": [
+      "asiaticoside",
+      "아시아티코사이드"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Centella compound that stimulates collagen production and reduces scarring.",
+      "ko": "콜라겐 생성을 자극하고 흉터를 줄이는 센텔라 화합물입니다."
+    }
+  },
+  {
+    "id": "panthenol",
+    "inciName": "Panthenol",
+    "koName": "판테놀",
+    "aliases": [
+      "panthenol",
+      "d-panthenol",
+      "dexpanthenol",
+      "provitamin b5",
+      "vitamin b5",
+      "판테놀",
+      "덱스판테놀",
+      "프로비타민b5"
+    ],
+    "class": [
+      "soothing",
+      "barrier",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Provitamin B5 that deeply moisturizes, soothes irritation, and supports barrier repair.",
+      "ko": "깊은 보습, 자극 진정, 장벽 복원을 지원하는 프로비타민B5입니다."
+    }
+  },
+  {
+    "id": "allantoin",
+    "inciName": "Allantoin",
+    "koName": "알란토인",
+    "aliases": [
+      "allantoin",
+      "알란토인"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Gentle soothing agent that promotes cell regeneration and wound healing.",
+      "ko": "세포 재생과 상처 치유를 촉진하는 순한 진정 성분입니다."
+    }
+  },
+  {
+    "id": "bisabolol",
+    "inciName": "Bisabolol",
+    "koName": "비사볼올",
+    "aliases": [
+      "bisabolol",
+      "alpha-bisabolol",
+      "비사볼올",
+      "알파비사볼올"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Chamomile-derived anti-inflammatory that calms redness and irritation.",
+      "ko": "캐모마일에서 추출한 항염 성분. 홍조와 자극을 진정시킵니다."
+    }
+  },
+  {
+    "id": "tea_tree_oil",
+    "inciName": "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+    "koName": "티트리오일",
+    "aliases": [
+      "tea tree oil",
+      "melaleuca alternifolia leaf oil",
+      "tea tree",
+      "티트리오일",
+      "티트리",
+      "티트리잎오일"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Natural antibacterial and anti-inflammatory oil. Effective for acne-prone skin.",
+      "ko": "천연 항균·항염 오일. 여드름성 피부에 효과적입니다."
+    }
+  },
+  {
+    "id": "azelaic_acid",
+    "inciName": "Azelaic Acid",
+    "koName": "아젤라산",
+    "aliases": [
+      "azelaic acid",
+      "아젤라산",
+      "아젤라익산",
+      "아젤라익애시드"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Multi-purpose acid for acne, rosacea, and hyperpigmentation. Gentle enough for sensitive skin.",
+      "ko": "여드름, 주사, 색소침착에 효과적인 다목적 산. 민감 피부에도 순합니다."
+    }
+  },
+  {
+    "id": "tranexamic_acid",
+    "inciName": "Tranexamic Acid",
+    "koName": "트라넥삼산",
+    "aliases": [
+      "tranexamic acid",
+      "트라넥삼산",
+      "트란삼산"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Brightening agent that targets melasma and post-inflammatory hyperpigmentation.",
+      "ko": "기미와 염증 후 색소침착을 타겟하는 브라이트닝 성분입니다."
+    }
+  },
+  {
+    "id": "arbutin",
+    "inciName": "Arbutin",
+    "koName": "알부틴",
+    "aliases": [
+      "arbutin",
+      "alpha-arbutin",
+      "beta-arbutin",
+      "알부틴",
+      "알파알부틴"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Natural skin brightener that inhibits melanin production. Gentler alternative to hydroquinone.",
+      "ko": "멜라닌 생성을 억제하는 천연 브라이트닝 성분. 하이드로퀴논의 순한 대안입니다."
+    }
+  },
+  {
+    "id": "kojic_acid",
+    "inciName": "Kojic Acid",
+    "koName": "코직산",
+    "aliases": [
+      "kojic acid",
+      "코직산",
+      "코지산"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Melanin inhibitor derived from fungi. Effective for dark spots and uneven tone.",
+      "ko": "곰팡이에서 유래한 멜라닌 억제제. 다크스팟과 불균일한 피부톤에 효과적입니다."
+    }
+  },
+  {
+    "id": "zinc_pca",
+    "inciName": "Zinc PCA",
+    "koName": "징크피씨에이",
+    "aliases": [
+      "zinc pca",
+      "징크피씨에이",
+      "징크pca",
+      "피씨에이징크"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Zinc compound that controls sebum production. Great for oily and acne-prone skin.",
+      "ko": "피지 생성을 조절하는 아연 화합물. 지성 및 여드름성 피부에 좋습니다."
+    }
+  },
+  {
+    "id": "zinc_oxide",
+    "inciName": "Zinc Oxide",
+    "koName": "산화아연",
+    "aliases": [
+      "zinc oxide",
+      "산화아연",
+      "징크옥사이드"
+    ],
+    "class": [
+      "spf",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Physical/mineral sunscreen agent. Broad-spectrum UVA+UVB protection.",
+      "ko": "물리적/미네랄 자외선 차단 성분. UVA+UVB 광범위 차단 효과가 있습니다."
+    }
+  },
+  {
+    "id": "titanium_dioxide",
+    "inciName": "Titanium Dioxide",
+    "koName": "이산화티타늄",
+    "aliases": [
+      "titanium dioxide",
+      "이산화티타늄",
+      "티타늄디옥사이드",
+      "티탄디옥사이드"
+    ],
+    "class": [
+      "spf",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Physical UV filter. Primarily protects against UVB rays.",
+      "ko": "물리적 자외선 필터. 주로 UVB를 차단합니다."
+    }
+  },
+  {
+    "id": "peptide_matrixyl",
+    "inciName": "Palmitoyl Pentapeptide-4",
+    "koName": "팔미토일펜타펩타이드-4",
+    "aliases": [
+      "palmitoyl pentapeptide-4",
+      "matrixyl",
+      "마트릭실",
+      "팔미토일펜타펩타이드"
+    ],
+    "class": [
+      "peptide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Signal peptide that stimulates collagen and elastin production for anti-wrinkle effects.",
+      "ko": "콜라겐과 엘라스틴 생성을 자극하는 시그널 펩타이드. 주름 개선 효과가 있습니다."
+    }
+  },
+  {
+    "id": "peptide_copper",
+    "inciName": "Copper Tripeptide-1",
+    "koName": "구리트리펩타이드-1",
+    "aliases": [
+      "copper tripeptide-1",
+      "copper peptide",
+      "ghk-cu",
+      "구리펩타이드",
+      "구리트리펩타이드"
+    ],
+    "class": [
+      "peptide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Copper peptide that promotes wound healing, collagen synthesis, and skin remodeling.",
+      "ko": "상처 치유, 콜라겐 합성, 피부 리모델링을 촉진하는 구리 펩타이드입니다."
+    }
+  },
+  {
+    "id": "peptide_argireline",
+    "inciName": "Acetyl Hexapeptide-8",
+    "koName": "아세틸헥사펩타이드-8",
+    "aliases": [
+      "acetyl hexapeptide-8",
+      "argireline",
+      "아르지렐린",
+      "아세틸헥사펩타이드"
+    ],
+    "class": [
+      "peptide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Neuropeptide that relaxes facial muscles to reduce expression lines. Called 'topical Botox'.",
+      "ko": "얼굴 근육을 이완시켜 표정 주름을 줄이는 뉴로펩타이드. '바르는 보톡스'라 불립니다."
+    }
+  },
+  {
+    "id": "peptide_buffet",
+    "inciName": "Palmitoyl Tripeptide-1",
+    "koName": "팔미토일트리펩타이드-1",
+    "aliases": [
+      "palmitoyl tripeptide-1",
+      "팔미토일트리펩타이드",
+      "syn-coll"
+    ],
+    "class": [
+      "peptide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Collagen-boosting peptide that signals skin to produce new collagen.",
+      "ko": "피부에 새로운 콜라겐 생성을 신호하는 콜라겐 부스팅 펩타이드입니다."
+    }
+  },
+  {
+    "id": "egf",
+    "inciName": "sh-Oligopeptide-1",
+    "koName": "EGF",
+    "aliases": [
+      "sh-oligopeptide-1",
+      "egf",
+      "epidermal growth factor",
+      "상피세포성장인자",
+      "이지에프"
+    ],
+    "class": [
+      "peptide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Epidermal Growth Factor that accelerates skin cell renewal and wound healing.",
+      "ko": "피부 세포 재생과 상처 치유를 가속하는 상피세포성장인자입니다."
+    }
+  },
+  {
+    "id": "squalane",
+    "inciName": "Squalane",
+    "koName": "스쿠알란",
+    "aliases": [
+      "squalane",
+      "스쿠알란",
+      "스쿠알렌",
+      "squalene"
+    ],
+    "class": [
+      "oil_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Lightweight oil that mimics skin's natural sebum. Non-comedogenic moisturizer.",
+      "ko": "피부 천연 피지를 모방하는 가벼운 오일. 비코메도제닉 보습제입니다."
+    }
+  },
+  {
+    "id": "jojoba_oil",
+    "inciName": "Simmondsia Chinensis (Jojoba) Seed Oil",
+    "koName": "호호바오일",
+    "aliases": [
+      "jojoba oil",
+      "jojoba seed oil",
+      "simmondsia chinensis seed oil",
+      "호호바오일",
+      "호호바씨오일"
+    ],
+    "class": [
+      "oil_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Wax ester that closely resembles skin sebum. Balances oil production.",
+      "ko": "피부 피지와 유사한 왁스 에스터. 유분 생성을 균형 있게 조절합니다."
+    }
+  },
+  {
+    "id": "rosehip_oil",
+    "inciName": "Rosa Canina Fruit Oil",
+    "koName": "로즈힙오일",
+    "aliases": [
+      "rosehip oil",
+      "rosa canina fruit oil",
+      "rosehip seed oil",
+      "로즈힙오일",
+      "로즈힙씨오일"
+    ],
+    "class": [
+      "oil_class",
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Rich in vitamin A and C. Reduces scars, brightens, and improves skin texture.",
+      "ko": "비타민A와 C가 풍부합니다. 흉터 감소, 브라이트닝, 피부결 개선 효과가 있습니다."
+    }
+  },
+  {
+    "id": "gluconolactone",
+    "inciName": "Gluconolactone",
+    "koName": "글루코노락톤",
+    "aliases": [
+      "gluconolactone",
+      "pha",
+      "poly hydroxy acid",
+      "글루코노락톤",
+      "폴리히드록시산"
+    ],
+    "class": [
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "PHA (polyhydroxy acid) that gently exfoliates with added moisturizing benefit.",
+      "ko": "보습 효과가 추가된 순한 각질 제거제 PHA(폴리히드록시산)입니다."
+    }
+  },
+  {
+    "id": "lactobionic_acid",
+    "inciName": "Lactobionic Acid",
+    "koName": "락토바이오닉산",
+    "aliases": [
+      "lactobionic acid",
+      "락토바이오닉산",
+      "락토바이오닉애시드"
+    ],
+    "class": [
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "PHA with antioxidant and humectant properties. Gentlest chemical exfoliant.",
+      "ko": "항산화와 흡습 효과를 가진 PHA. 가장 순한 화학적 각질 제거제입니다."
+    }
+  },
+  {
+    "id": "bakuchiol",
+    "inciName": "Bakuchiol",
+    "koName": "바쿠치올",
+    "aliases": [
+      "bakuchiol",
+      "바쿠치올"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Plant-based retinol alternative. Similar anti-aging benefits without retinoid irritation.",
+      "ko": "식물성 레티놀 대안. 레티노이드 자극 없이 유사한 항노화 효과를 제공합니다."
+    }
+  },
+  {
+    "id": "sulfur",
+    "inciName": "Sulfur",
+    "koName": "유황",
+    "aliases": [
+      "sulfur",
+      "sulphur",
+      "유황"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Antibacterial and keratolytic agent for acne and seborrheic dermatitis.",
+      "ko": "여드름과 지루성 피부염에 효과적인 항균·각질 용해 성분입니다."
+    }
+  },
+  {
+    "id": "hydroquinone",
+    "inciName": "Hydroquinone",
+    "koName": "하이드로퀴논",
+    "aliases": [
+      "hydroquinone",
+      "하이드로퀴논",
+      "히드로퀴논"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Strongest skin lightening agent. Prescription only in many countries. Use with caution.",
+      "ko": "가장 강력한 미백 성분. 많은 국가에서 처방 전용입니다. 주의하여 사용하세요."
+    }
+  },
+  {
+    "id": "licorice_root",
+    "inciName": "Glycyrrhiza Glabra (Licorice) Root Extract",
+    "koName": "감초추출물",
+    "aliases": [
+      "licorice root extract",
+      "glycyrrhiza glabra root extract",
+      "glabridin",
+      "감초추출물",
+      "감초",
+      "글라브리딘"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Anti-inflammatory and brightening extract. Contains glabridin for melanin inhibition.",
+      "ko": "항염과 브라이트닝 추출물. 멜라닌 억제를 위한 글라브리딘을 함유합니다."
+    }
+  },
+  {
+    "id": "green_tea",
+    "inciName": "Camellia Sinensis Leaf Extract",
+    "koName": "녹차추출물",
+    "aliases": [
+      "green tea extract",
+      "camellia sinensis leaf extract",
+      "egcg",
+      "녹차추출물",
+      "녹차",
+      "카테킨"
+    ],
+    "class": [
+      "antioxidant",
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Rich in EGCG antioxidants. Anti-inflammatory, oil control, and UV protection support.",
+      "ko": "EGCG 항산화제가 풍부합니다. 항염, 피지 조절, 자외선 보호를 지원합니다."
+    }
+  },
+  {
+    "id": "snail_mucin",
+    "inciName": "Snail Secretion Filtrate",
+    "koName": "달팽이점액여과물",
+    "aliases": [
+      "snail secretion filtrate",
+      "snail mucin",
+      "달팽이점액여과물",
+      "달팽이점액",
+      "스네일뮤신"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "K-beauty staple rich in glycoproteins, hyaluronic acid, and glycolic acid for repair and hydration.",
+      "ko": "당단백질, 히알루론산, 글리콜산이 풍부한 K-뷰티 대표 성분. 복원과 보습에 탁월합니다."
+    }
+  },
+  {
+    "id": "propolis",
+    "inciName": "Propolis Extract",
+    "koName": "프로폴리스추출물",
+    "aliases": [
+      "propolis extract",
+      "propolis",
+      "프로폴리스추출물",
+      "프로폴리스"
+    ],
+    "class": [
+      "soothing",
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Bee-derived extract with antibacterial, anti-inflammatory, and wound-healing properties.",
+      "ko": "항균, 항염, 상처 치유 효과를 가진 벌 유래 추출물입니다."
+    }
+  },
+  {
+    "id": "mugwort",
+    "inciName": "Artemisia Princeps Extract",
+    "koName": "쑥추출물",
+    "aliases": [
+      "mugwort extract",
+      "artemisia princeps extract",
+      "artemisia",
+      "쑥추출물",
+      "쑥",
+      "아르테미시아"
+    ],
+    "class": [
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Korean traditional calming ingredient. Anti-inflammatory and antioxidant properties.",
+      "ko": "한국 전통 진정 성분. 항염과 항산화 효과가 있습니다."
+    }
+  },
+  {
+    "id": "rice_extract",
+    "inciName": "Oryza Sativa (Rice) Extract",
+    "koName": "쌀추출물",
+    "aliases": [
+      "rice extract",
+      "oryza sativa extract",
+      "rice bran extract",
+      "rice ferment",
+      "쌀추출물",
+      "쌀겨추출물"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Brightening and moisturizing extract rich in amino acids and minerals.",
+      "ko": "아미노산과 미네랄이 풍부한 브라이트닝·보습 추출물입니다."
+    }
+  },
+  {
+    "id": "galactomyces",
+    "inciName": "Galactomyces Ferment Filtrate",
+    "koName": "갈락토미세스발효여과물",
+    "aliases": [
+      "galactomyces ferment filtrate",
+      "galactomyces",
+      "갈락토미세스",
+      "갈락토미세스발효여과물",
+      "피테라"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Fermented yeast filtrate (Pitera™ family). Brightening, hydrating, and skin-smoothing.",
+      "ko": "발효 효모 여과물 (피테라™ 계열). 브라이트닝, 보습, 피부결 정돈 효과가 있습니다."
+    }
+  },
+  {
+    "id": "saccharomyces",
+    "inciName": "Saccharomyces Ferment Filtrate",
+    "koName": "사카로미세스발효여과물",
+    "aliases": [
+      "saccharomyces ferment filtrate",
+      "saccharomyces",
+      "사카로미세스",
+      "사카로미세스발효여과물"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Yeast ferment filtrate that improves skin texture, hydration, and barrier function.",
+      "ko": "피부결, 보습, 장벽 기능을 개선하는 효모 발효 여과물입니다."
+    }
+  },
+  {
+    "id": "bifida_ferment",
+    "inciName": "Bifida Ferment Lysate",
+    "koName": "비피다발효용해물",
+    "aliases": [
+      "bifida ferment lysate",
+      "bifida",
+      "비피다발효용해물",
+      "비피다"
+    ],
+    "class": [
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Probiotic-derived ingredient that strengthens skin barrier and boosts immunity.",
+      "ko": "피부 장벽을 강화하고 면역력을 높이는 프로바이오틱 유래 성분입니다."
+    }
+  },
+  {
+    "id": "sodium_hyaluronate_crosspolymer",
+    "inciName": "Sodium Hyaluronate Crosspolymer",
+    "koName": "히알루론산크로스폴리머",
+    "aliases": [
+      "sodium hyaluronate crosspolymer",
+      "히알루론산크로스폴리머",
+      "가교히알루론산"
+    ],
+    "class": [
+      "hyaluronic_acid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Cross-linked hyaluronic acid with longer-lasting hydration on skin surface.",
+      "ko": "피부 표면에서 오래 지속되는 보습 효과를 가진 가교 히알루론산입니다."
+    }
+  },
+  {
+    "id": "low_molecular_ha",
+    "inciName": "Hydrolyzed Hyaluronic Acid",
+    "koName": "저분자히알루론산",
+    "aliases": [
+      "hydrolyzed hyaluronic acid",
+      "low molecular weight hyaluronic acid",
+      "저분자히알루론산",
+      "가수분해히알루론산"
+    ],
+    "class": [
+      "hyaluronic_acid",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Small-molecule HA that penetrates deeper layers for intensive hydration.",
+      "ko": "깊은 층까지 침투하여 집중 보습하는 저분자 히알루론산입니다."
+    }
+  },
+  {
+    "id": "water",
+    "inciName": "Water",
+    "koName": "정제수",
+    "aliases": [
+      "water",
+      "aqua",
+      "eau",
+      "정제수",
+      "물"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Solvent base for most formulations.",
+      "ko": "대부분의 제형에서 기본 용매입니다."
+    }
+  },
+  {
+    "id": "glycerin",
+    "inciName": "Glycerin",
+    "koName": "글리세린",
+    "aliases": [
+      "glycerin",
+      "glycerine",
+      "glycerol",
+      "글리세린",
+      "글리세롤"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Humectant that draws moisture into skin.",
+      "ko": "피부에 수분을 끌어당기는 보습제입니다."
+    }
+  },
+  {
+    "id": "butylene_glycol",
+    "inciName": "Butylene Glycol",
+    "koName": "부틸렌글라이콜",
+    "aliases": [
+      "butylene glycol",
+      "1,3-butylene glycol",
+      "부틸렌글라이콜",
+      "부틸렌글리콜"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Lightweight humectant and solvent. Improves product texture.",
+      "ko": "가벼운 보습제이자 용매. 제품 질감을 개선합니다."
+    }
+  },
+  {
+    "id": "propanediol",
+    "inciName": "Propanediol",
+    "koName": "프로판디올",
+    "aliases": [
+      "propanediol",
+      "1,3-propanediol",
+      "프로판디올"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural alternative to propylene glycol. Humectant and solvent.",
+      "ko": "프로필렌글리콜의 천연 대안. 보습제이자 용매입니다."
+    }
+  },
+  {
+    "id": "pentylene_glycol",
+    "inciName": "Pentylene Glycol",
+    "koName": "펜틸렌글라이콜",
+    "aliases": [
+      "pentylene glycol",
+      "펜틸렌글라이콜",
+      "펜틸렌글리콜"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Moisturizer with mild antimicrobial properties.",
+      "ko": "약한 항균 효과가 있는 보습제입니다."
+    }
+  },
+  {
+    "id": "dimethicone",
+    "inciName": "Dimethicone",
+    "koName": "디메치콘",
+    "aliases": [
+      "dimethicone",
+      "디메치콘",
+      "디메티콘",
+      "polydimethylsiloxane"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Silicone that smooths skin and locks in moisture. Non-comedogenic.",
+      "ko": "피부를 매끄럽게 하고 수분을 잠그는 실리콘. 비코메도제닉입니다."
+    }
+  },
+  {
+    "id": "cyclomethicone",
+    "inciName": "Cyclomethicone",
+    "koName": "사이클로메치콘",
+    "aliases": [
+      "cyclomethicone",
+      "cyclopentasiloxane",
+      "사이클로메치콘",
+      "사이클로펜타실록산"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Volatile silicone that evaporates after application. Gives silky feel.",
+      "ko": "도포 후 증발하는 휘발성 실리콘. 실크 같은 감촉을 줍니다."
+    }
+  },
+  {
+    "id": "cetearyl_alcohol",
+    "inciName": "Cetearyl Alcohol",
+    "koName": "세테아릴알코올",
+    "aliases": [
+      "cetearyl alcohol",
+      "cetostearyl alcohol",
+      "세테아릴알코올",
+      "세테아릴알콜"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Fatty alcohol emollient and emulsifier. Not drying like ethanol.",
+      "ko": "지방 알코올 연화제이자 유화제. 에탄올과 달리 건조하지 않습니다."
+    }
+  },
+  {
+    "id": "cetyl_alcohol",
+    "inciName": "Cetyl Alcohol",
+    "koName": "세틸알코올",
+    "aliases": [
+      "cetyl alcohol",
+      "세틸알코올",
+      "세틸알콜"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Fatty alcohol that thickens and stabilizes formulations.",
+      "ko": "제형을 두텁게 하고 안정시키는 지방 알코올입니다."
+    }
+  },
+  {
+    "id": "stearic_acid",
+    "inciName": "Stearic Acid",
+    "koName": "스테아르산",
+    "aliases": [
+      "stearic acid",
+      "스테아르산",
+      "스테아릭산"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Fatty acid that acts as emulsifier and texture enhancer.",
+      "ko": "유화제 및 질감 개선제로 작용하는 지방산입니다."
+    }
+  },
+  {
+    "id": "palmitic_acid",
+    "inciName": "Palmitic Acid",
+    "koName": "팔미트산",
+    "aliases": [
+      "palmitic acid",
+      "팔미트산",
+      "팔미틱산"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Common fatty acid found naturally in skin. Emollient and surfactant.",
+      "ko": "피부에 자연적으로 존재하는 지방산. 연화제 겸 계면활성제입니다."
+    }
+  },
+  {
+    "id": "shea_butter",
+    "inciName": "Butyrospermum Parkii (Shea) Butter",
+    "koName": "시어버터",
+    "aliases": [
+      "shea butter",
+      "butyrospermum parkii butter",
+      "시어버터"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Rich emollient butter for deep moisturization and barrier protection.",
+      "ko": "깊은 보습과 장벽 보호를 위한 풍부한 연화 버터입니다."
+    }
+  },
+  {
+    "id": "cocoa_butter",
+    "inciName": "Theobroma Cacao (Cocoa) Seed Butter",
+    "koName": "코코아버터",
+    "aliases": [
+      "cocoa butter",
+      "theobroma cacao seed butter",
+      "코코아버터",
+      "카카오버터"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Thick occlusive moisturizer rich in fatty acids.",
+      "ko": "지방산이 풍부한 두꺼운 밀폐형 보습제입니다."
+    }
+  },
+  {
+    "id": "petrolatum",
+    "inciName": "Petrolatum",
+    "koName": "바셀린",
+    "aliases": [
+      "petrolatum",
+      "petroleum jelly",
+      "vaseline",
+      "바셀린",
+      "페트롤라튬"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Most effective occlusive. Prevents 99% of water loss.",
+      "ko": "가장 효과적인 밀폐제. 수분 손실을 99% 방지합니다."
+    }
+  },
+  {
+    "id": "mineral_oil",
+    "inciName": "Mineral Oil",
+    "koName": "미네랄오일",
+    "aliases": [
+      "mineral oil",
+      "paraffinum liquidum",
+      "미네랄오일",
+      "유동파라핀"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Occlusive emollient. Inert and non-comedogenic despite misconceptions.",
+      "ko": "밀폐형 연화제. 오해와 달리 비활성이며 비코메도제닉입니다."
+    }
+  },
+  {
+    "id": "caprylic_triglyceride",
+    "inciName": "Caprylic/Capric Triglyceride",
+    "koName": "카프릴릭/카프릭트리글리세라이드",
+    "aliases": [
+      "caprylic/capric triglyceride",
+      "caprylic capric triglyceride",
+      "카프릴릭카프릭트리글리세라이드",
+      "mct oil"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Coconut-derived emollient. Lightweight texture enhancer.",
+      "ko": "코코넛 유래 연화제. 가벼운 질감 개선제입니다."
+    }
+  },
+  {
+    "id": "isopropyl_myristate",
+    "inciName": "Isopropyl Myristate",
+    "koName": "이소프로필미리스테이트",
+    "aliases": [
+      "isopropyl myristate",
+      "이소프로필미리스테이트",
+      "ipm"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Emollient that enhances product absorption. May be comedogenic for some.",
+      "ko": "제품 흡수를 높이는 연화제. 일부 피부에 코메도 유발 가능성이 있습니다."
+    }
+  },
+  {
+    "id": "ceteareth_20",
+    "inciName": "Ceteareth-20",
+    "koName": "세테아레스-20",
+    "aliases": [
+      "ceteareth-20",
+      "세테아레스-20"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Emulsifier that helps blend oil and water phases.",
+      "ko": "유상과 수상을 혼합하는 유화제입니다."
+    }
+  },
+  {
+    "id": "polysorbate_20",
+    "inciName": "Polysorbate 20",
+    "koName": "폴리소르베이트20",
+    "aliases": [
+      "polysorbate 20",
+      "tween 20",
+      "폴리소르베이트20"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Mild surfactant and solubilizer for essential oils.",
+      "ko": "에센셜 오일을 위한 순한 계면활성제 겸 가용화제입니다."
+    }
+  },
+  {
+    "id": "polysorbate_60",
+    "inciName": "Polysorbate 60",
+    "koName": "폴리소르베이트60",
+    "aliases": [
+      "polysorbate 60",
+      "tween 60",
+      "폴리소르베이트60"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Emulsifier commonly used in creams and lotions.",
+      "ko": "크림과 로션에 주로 사용되는 유화제입니다."
+    }
+  },
+  {
+    "id": "carbomer",
+    "inciName": "Carbomer",
+    "koName": "카보머",
+    "aliases": [
+      "carbomer",
+      "carbopol",
+      "카보머",
+      "카보폴"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Thickening polymer that creates gel textures.",
+      "ko": "겔 질감을 만드는 점증 폴리머입니다."
+    }
+  },
+  {
+    "id": "xanthan_gum",
+    "inciName": "Xanthan Gum",
+    "koName": "잔탄검",
+    "aliases": [
+      "xanthan gum",
+      "잔탄검",
+      "산탄검"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural thickener and stabilizer from fermentation.",
+      "ko": "발효로 얻은 천연 점증제이자 안정제입니다."
+    }
+  },
+  {
+    "id": "hydroxyethylcellulose",
+    "inciName": "Hydroxyethylcellulose",
+    "koName": "하이드록시에틸셀룰로오스",
+    "aliases": [
+      "hydroxyethylcellulose",
+      "하이드록시에틸셀룰로오스",
+      "hec"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Plant-derived thickener and film former.",
+      "ko": "식물 유래 점증제 겸 피막 형성제입니다."
+    }
+  },
+  {
+    "id": "sodium_polyacrylate",
+    "inciName": "Sodium Polyacrylate",
+    "koName": "소듐폴리아크릴레이트",
+    "aliases": [
+      "sodium polyacrylate",
+      "소듐폴리아크릴레이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Synthetic polymer for texture and moisture retention.",
+      "ko": "질감과 수분 유지를 위한 합성 폴리머입니다."
+    }
+  },
+  {
+    "id": "phenoxyethanol",
+    "inciName": "Phenoxyethanol",
+    "koName": "페녹시에탄올",
+    "aliases": [
+      "phenoxyethanol",
+      "페녹시에탄올"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Widely used preservative. Considered safe at typical concentrations.",
+      "ko": "널리 사용되는 방부제. 일반적인 농도에서 안전한 것으로 간주됩니다."
+    }
+  },
+  {
+    "id": "ethylhexylglycerin",
+    "inciName": "Ethylhexylglycerin",
+    "koName": "에틸헥실글리세린",
+    "aliases": [
+      "ethylhexylglycerin",
+      "에틸헥실글리세린"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Preservative booster and skin conditioning agent.",
+      "ko": "방부력 강화제 겸 피부 컨디셔닝 성분입니다."
+    }
+  },
+  {
+    "id": "disodium_edta",
+    "inciName": "Disodium EDTA",
+    "koName": "디소듐이디티에이",
+    "aliases": [
+      "disodium edta",
+      "edta",
+      "디소듐이디티에이",
+      "이디티에이"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Chelating agent that improves product stability.",
+      "ko": "제품 안정성을 개선하는 킬레이트제입니다."
+    }
+  },
+  {
+    "id": "triethanolamine",
+    "inciName": "Triethanolamine",
+    "koName": "트리에탄올아민",
+    "aliases": [
+      "triethanolamine",
+      "tea",
+      "trolamine",
+      "트리에탄올아민"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "pH adjuster and emulsifier.",
+      "ko": "pH 조절제 겸 유화제입니다."
+    }
+  },
+  {
+    "id": "sodium_hydroxide",
+    "inciName": "Sodium Hydroxide",
+    "koName": "수산화나트륨",
+    "aliases": [
+      "sodium hydroxide",
+      "lye",
+      "caustic soda",
+      "수산화나트륨"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "pH adjuster. Used in trace amounts.",
+      "ko": "pH 조절제. 극소량 사용됩니다."
+    }
+  },
+  {
+    "id": "arginine",
+    "inciName": "Arginine",
+    "koName": "아르기닌",
+    "aliases": [
+      "arginine",
+      "l-arginine",
+      "아르기닌"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Amino acid that conditions skin and adjusts pH.",
+      "ko": "피부를 컨디셔닝하고 pH를 조절하는 아미노산입니다."
+    }
+  },
+  {
+    "id": "adenosine",
+    "inciName": "Adenosine",
+    "koName": "아데노신",
+    "aliases": [
+      "adenosine",
+      "아데노신"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Anti-wrinkle ingredient recognized by Korean FDA. Promotes collagen production.",
+      "ko": "한국 식약처 인정 주름 개선 성분. 콜라겐 생성을 촉진합니다."
+    }
+  },
+  {
+    "id": "betaine",
+    "inciName": "Betaine",
+    "koName": "베타인",
+    "aliases": [
+      "betaine",
+      "trimethylglycine",
+      "베타인"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural humectant from sugar beets. Soothes and hydrates.",
+      "ko": "사탕무에서 추출한 천연 보습제. 진정과 보습 효과가 있습니다."
+    }
+  },
+  {
+    "id": "trehalose",
+    "inciName": "Trehalose",
+    "koName": "트레할로스",
+    "aliases": [
+      "trehalose",
+      "트레할로스"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Sugar-based moisturizer that protects cells from dehydration.",
+      "ko": "탈수로부터 세포를 보호하는 당 기반 보습제입니다."
+    }
+  },
+  {
+    "id": "sorbitol",
+    "inciName": "Sorbitol",
+    "koName": "소르비톨",
+    "aliases": [
+      "sorbitol",
+      "소르비톨"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Sugar alcohol humectant. Draws moisture to skin.",
+      "ko": "수분을 끌어당기는 당 알코올 보습제입니다."
+    }
+  },
+  {
+    "id": "propylene_glycol",
+    "inciName": "Propylene Glycol",
+    "koName": "프로필렌글라이콜",
+    "aliases": [
+      "propylene glycol",
+      "프로필렌글라이콜",
+      "프로필렌글리콜",
+      "pg"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Humectant and penetration enhancer. May irritate very sensitive skin.",
+      "ko": "보습제 겸 침투 촉진제. 매우 민감한 피부에는 자극이 될 수 있습니다."
+    }
+  },
+  {
+    "id": "hexanediol",
+    "inciName": "1,2-Hexanediol",
+    "koName": "헥산디올",
+    "aliases": [
+      "1,2-hexanediol",
+      "hexanediol",
+      "헥산디올"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Solvent with mild preservative boosting properties.",
+      "ko": "약한 방부력 강화 효과가 있는 용매입니다."
+    }
+  },
+  {
+    "id": "sodium_pca",
+    "inciName": "Sodium PCA",
+    "koName": "소듐피씨에이",
+    "aliases": [
+      "sodium pca",
+      "소듐피씨에이",
+      "소듐pca"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural component of skin's NMF. Strong humectant.",
+      "ko": "피부 천연보습인자(NMF)의 구성 성분. 강력한 보습제입니다."
+    }
+  },
+  {
+    "id": "urea",
+    "inciName": "Urea",
+    "koName": "요소",
+    "aliases": [
+      "urea",
+      "요소",
+      "유레아",
+      "carbamide"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "NMF component. Hydrates and at higher concentrations gently exfoliates.",
+      "ko": "NMF 구성 성분. 보습하며, 고농도에서는 순한 각질 제거 효과가 있습니다."
+    }
+  },
+  {
+    "id": "cholesterol",
+    "inciName": "Cholesterol",
+    "koName": "콜레스테롤",
+    "aliases": [
+      "cholesterol",
+      "콜레스테롤"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Lipid that strengthens skin barrier alongside ceramides.",
+      "ko": "세라마이드와 함께 피부 장벽을 강화하는 지질입니다."
+    }
+  },
+  {
+    "id": "phytosphingosine",
+    "inciName": "Phytosphingosine",
+    "koName": "피토스핑고신",
+    "aliases": [
+      "phytosphingosine",
+      "피토스핑고신"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Ceramide precursor with antimicrobial and anti-inflammatory effects.",
+      "ko": "항균·항염 효과가 있는 세라마이드 전구체입니다."
+    }
+  },
+  {
+    "id": "lecithin",
+    "inciName": "Lecithin",
+    "koName": "레시틴",
+    "aliases": [
+      "lecithin",
+      "레시틴"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural emulsifier and penetration enhancer from soybeans.",
+      "ko": "대두에서 유래한 천연 유화제 겸 침투 촉진제입니다."
+    }
+  },
+  {
+    "id": "aloe_vera",
+    "inciName": "Aloe Barbadensis Leaf Extract",
+    "koName": "알로에추출물",
+    "aliases": [
+      "aloe vera",
+      "aloe barbadensis leaf extract",
+      "aloe barbadensis leaf juice",
+      "알로에",
+      "알로에추출물",
+      "알로에베라"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Soothing and hydrating plant extract.",
+      "ko": "진정과 보습 효과가 있는 식물 추출물입니다."
+    }
+  },
+  {
+    "id": "chamomile_extract",
+    "inciName": "Chamomilla Recutita (Matricaria) Flower Extract",
+    "koName": "캐모마일추출물",
+    "aliases": [
+      "chamomile extract",
+      "chamomilla recutita flower extract",
+      "matricaria extract",
+      "캐모마일",
+      "캐모마일추출물"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Anti-inflammatory flower extract that calms irritated skin.",
+      "ko": "자극받은 피부를 진정시키는 항염 꽃 추출물입니다."
+    }
+  },
+  {
+    "id": "cucumber_extract",
+    "inciName": "Cucumis Sativus (Cucumber) Fruit Extract",
+    "koName": "오이추출물",
+    "aliases": [
+      "cucumber extract",
+      "cucumis sativus fruit extract",
+      "오이추출물",
+      "오이"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Cooling and soothing extract with mild astringent properties.",
+      "ko": "쿨링과 진정 효과가 있는 약한 수렴 추출물입니다."
+    }
+  },
+  {
+    "id": "calendula_extract",
+    "inciName": "Calendula Officinalis Flower Extract",
+    "koName": "칼렌듈라추출물",
+    "aliases": [
+      "calendula extract",
+      "calendula officinalis flower extract",
+      "칼렌듈라",
+      "칼렌듈라추출물",
+      "금잔화추출물"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Healing flower extract with anti-inflammatory properties.",
+      "ko": "항염 효과가 있는 치유 꽃 추출물입니다."
+    }
+  },
+  {
+    "id": "rosemary_extract",
+    "inciName": "Rosmarinus Officinalis (Rosemary) Leaf Extract",
+    "koName": "로즈마리추출물",
+    "aliases": [
+      "rosemary extract",
+      "rosmarinus officinalis leaf extract",
+      "로즈마리추출물",
+      "로즈마리"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Antioxidant herb extract also used as natural preservative.",
+      "ko": "천연 방부제로도 사용되는 항산화 허브 추출물입니다."
+    }
+  },
+  {
+    "id": "sodium_lauryl_sulfate",
+    "inciName": "Sodium Lauryl Sulfate",
+    "koName": "소듐라우릴설페이트",
+    "aliases": [
+      "sodium lauryl sulfate",
+      "sls",
+      "소듐라우릴설페이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Strong surfactant/cleanser. Can be irritating for sensitive skin.",
+      "ko": "강한 계면활성제. 민감 피부에 자극이 될 수 있습니다."
+    }
+  },
+  {
+    "id": "sodium_laureth_sulfate",
+    "inciName": "Sodium Laureth Sulfate",
+    "koName": "소듐라우레스설페이트",
+    "aliases": [
+      "sodium laureth sulfate",
+      "sles",
+      "소듐라우레스설페이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Milder surfactant than SLS. Common in cleansers.",
+      "ko": "SLS보다 순한 계면활성제. 클렌저에 흔히 사용됩니다."
+    }
+  },
+  {
+    "id": "cocamidopropyl_betaine",
+    "inciName": "Cocamidopropyl Betaine",
+    "koName": "코카미도프로필베타인",
+    "aliases": [
+      "cocamidopropyl betaine",
+      "capb",
+      "코카미도프로필베타인"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Gentle coconut-derived surfactant. Common in mild cleansers.",
+      "ko": "코코넛 유래 순한 계면활성제. 저자극 클렌저에 흔히 사용됩니다."
+    }
+  },
+  {
+    "id": "decyl_glucoside",
+    "inciName": "Decyl Glucoside",
+    "koName": "데실글루코사이드",
+    "aliases": [
+      "decyl glucoside",
+      "데실글루코사이드"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Mild sugar-based surfactant safe for sensitive skin.",
+      "ko": "민감 피부에 안전한 순한 당 기반 계면활성제입니다."
+    }
+  },
+  {
+    "id": "peg_100_stearate",
+    "inciName": "PEG-100 Stearate",
+    "koName": "피이지-100스테아레이트",
+    "aliases": [
+      "peg-100 stearate",
+      "피이지100스테아레이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Emulsifier for oil-in-water formulations.",
+      "ko": "수중유적형 제형을 위한 유화제입니다."
+    }
+  },
+  {
+    "id": "glyceryl_stearate",
+    "inciName": "Glyceryl Stearate",
+    "koName": "글리세릴스테아레이트",
+    "aliases": [
+      "glyceryl stearate",
+      "글리세릴스테아레이트",
+      "gms"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Emollient and emulsifier derived from palm oil.",
+      "ko": "팜오일에서 유래한 연화제 겸 유화제입니다."
+    }
+  },
+  {
+    "id": "cetearyl_glucoside",
+    "inciName": "Cetearyl Glucoside",
+    "koName": "세테아릴글루코사이드",
+    "aliases": [
+      "cetearyl glucoside",
+      "세테아릴글루코사이드"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural emulsifier from plant sugars and fatty alcohols.",
+      "ko": "식물 당과 지방 알코올에서 유래한 천연 유화제입니다."
+    }
+  },
+  {
+    "id": "acrylates_copolymer",
+    "inciName": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+    "koName": "아크릴레이트코폴리머",
+    "aliases": [
+      "acrylates copolymer",
+      "acrylates/c10-30 alkyl acrylate crosspolymer",
+      "아크릴레이트코폴리머"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Thickener and emulsion stabilizer.",
+      "ko": "점증제 겸 에멀전 안정제입니다."
+    }
+  },
+  {
+    "id": "methylparaben",
+    "inciName": "Methylparaben",
+    "koName": "메틸파라벤",
+    "aliases": [
+      "methylparaben",
+      "메틸파라벤"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Preservative. Widely studied and considered safe at regulated levels.",
+      "ko": "방부제. 규제 수준에서 안전한 것으로 광범위하게 연구되었습니다."
+    }
+  },
+  {
+    "id": "propylparaben",
+    "inciName": "Propylparaben",
+    "koName": "프로필파라벤",
+    "aliases": [
+      "propylparaben",
+      "프로필파라벤"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Preservative paired with methylparaben for broad antimicrobial coverage.",
+      "ko": "메틸파라벤과 함께 사용되어 광범위한 항균 효과를 내는 방부제입니다."
+    }
+  },
+  {
+    "id": "potassium_sorbate",
+    "inciName": "Potassium Sorbate",
+    "koName": "소르빈산칼륨",
+    "aliases": [
+      "potassium sorbate",
+      "소르빈산칼륨"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Gentle preservative often used in natural formulations.",
+      "ko": "천연 제형에 자주 사용되는 순한 방부제입니다."
+    }
+  },
+  {
+    "id": "sodium_benzoate",
+    "inciName": "Sodium Benzoate",
+    "koName": "소듐벤조에이트",
+    "aliases": [
+      "sodium benzoate",
+      "소듐벤조에이트",
+      "안식향산나트륨"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Mild preservative commonly paired with potassium sorbate.",
+      "ko": "소르빈산칼륨과 함께 사용되는 순한 방부제입니다."
+    }
+  },
+  {
+    "id": "chlorphenesin",
+    "inciName": "Chlorphenesin",
+    "koName": "클로르페네신",
+    "aliases": [
+      "chlorphenesin",
+      "클로르페네신"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Preservative with antimicrobial activity.",
+      "ko": "항균 활성이 있는 방부제입니다."
+    }
+  },
+  {
+    "id": "caprylyl_glycol",
+    "inciName": "Caprylyl Glycol",
+    "koName": "카프릴릴글라이콜",
+    "aliases": [
+      "caprylyl glycol",
+      "카프릴릴글라이콜",
+      "카프릴릴글리콜"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Skin-conditioning agent that also boosts preservative effectiveness.",
+      "ko": "방부력을 강화하는 피부 컨디셔닝 성분입니다."
+    }
+  },
+  {
+    "id": "tocopheryl_linoleate",
+    "inciName": "Tocopheryl Linoleate",
+    "koName": "토코페릴리놀레이트",
+    "aliases": [
+      "tocopheryl linoleate",
+      "토코페릴리놀레이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Vitamin E ester with emollient and antioxidant properties.",
+      "ko": "연화 및 항산화 효과가 있는 비타민E 에스터입니다."
+    }
+  },
+  {
+    "id": "beeswax",
+    "inciName": "Cera Alba (Beeswax)",
+    "koName": "밀랍",
+    "aliases": [
+      "beeswax",
+      "cera alba",
+      "밀랍",
+      "비즈왁스"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural occlusive wax that locks in moisture.",
+      "ko": "수분을 가두는 천연 밀폐 왁스입니다."
+    }
+  },
+  {
+    "id": "candelilla_wax",
+    "inciName": "Euphorbia Cerifera (Candelilla) Wax",
+    "koName": "칸데릴라왁스",
+    "aliases": [
+      "candelilla wax",
+      "euphorbia cerifera wax",
+      "칸데릴라왁스"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Plant-based wax alternative to beeswax. Vegan-friendly.",
+      "ko": "밀랍의 식물성 대안. 비건 친화적입니다."
+    }
+  },
+  {
+    "id": "microcrystalline_cellulose",
+    "inciName": "Microcrystalline Cellulose",
+    "koName": "미결정셀룰로오스",
+    "aliases": [
+      "microcrystalline cellulose",
+      "미결정셀룰로오스"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Texture agent and absorbent in powder and cream formulations.",
+      "ko": "파우더와 크림 제형의 질감제 겸 흡수제입니다."
+    }
+  },
+  {
+    "id": "silica",
+    "inciName": "Silica",
+    "koName": "실리카",
+    "aliases": [
+      "silica",
+      "실리카",
+      "이산화규소"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Oil-absorbing mineral used in mattifying products.",
+      "ko": "매트 제품에 사용되는 유분 흡수 미네랄입니다."
+    }
+  },
+  {
+    "id": "titanium_dioxide_ci77891",
+    "inciName": "CI 77891",
+    "koName": "씨아이77891",
+    "aliases": [
+      "ci 77891",
+      "씨아이77891",
+      "titanium dioxide colorant"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "White pigment colorant (non-SPF function).",
+      "ko": "백색 안료 착색제 (자외선 차단 기능 아님)입니다."
+    }
+  },
+  {
+    "id": "iron_oxides",
+    "inciName": "Iron Oxides",
+    "koName": "산화철",
+    "aliases": [
+      "iron oxides",
+      "ci 77491",
+      "ci 77492",
+      "ci 77499",
+      "산화철"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Mineral pigments for color in tinted products.",
+      "ko": "틴티드 제품의 색상을 위한 미네랄 안료입니다."
+    }
+  },
+  {
+    "id": "mica",
+    "inciName": "Mica",
+    "koName": "마이카",
+    "aliases": [
+      "mica",
+      "마이카",
+      "ci 77019"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural mineral for shimmer and light-reflecting effects.",
+      "ko": "반짝임과 빛 반사 효과를 위한 천연 미네랄입니다."
+    }
+  },
+  {
+    "id": "parfum",
+    "inciName": "Parfum",
+    "koName": "향료",
+    "aliases": [
+      "parfum",
+      "fragrance",
+      "향료",
+      "인공향료"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Fragrance blend. Can be irritating for sensitive skin.",
+      "ko": "향료 혼합물. 민감 피부에 자극이 될 수 있습니다."
+    }
+  },
+  {
+    "id": "linalool",
+    "inciName": "Linalool",
+    "koName": "리날룰",
+    "aliases": [
+      "linalool",
+      "리날룰"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Fragrance component found in essential oils. Common allergen.",
+      "ko": "에센셜 오일에 포함된 향료 성분. 흔한 알레르겐입니다."
+    }
+  },
+  {
+    "id": "limonene",
+    "inciName": "Limonene",
+    "koName": "리모넨",
+    "aliases": [
+      "limonene",
+      "d-limonene",
+      "리모넨"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Citrus fragrance component. Potential skin sensitizer.",
+      "ko": "감귤류 향료 성분. 피부 감작 가능성이 있습니다."
+    }
+  },
+  {
+    "id": "citronellol",
+    "inciName": "Citronellol",
+    "koName": "시트로넬롤",
+    "aliases": [
+      "citronellol",
+      "시트로넬롤"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Rose-like fragrance allergen from essential oils.",
+      "ko": "에센셜 오일 유래 장미향 알레르겐입니다."
+    }
+  },
+  {
+    "id": "alcohol_denat",
+    "inciName": "Alcohol Denat.",
+    "koName": "변성알코올",
+    "aliases": [
+      "alcohol denat",
+      "alcohol denat.",
+      "denatured alcohol",
+      "sd alcohol",
+      "변성알코올",
+      "에탄올"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Denatured ethanol used as solvent. Can be drying at high concentrations.",
+      "ko": "용매로 사용되는 변성 에탄올. 고농도에서 건조할 수 있습니다."
+    }
+  },
+  {
+    "id": "witch_hazel",
+    "inciName": "Hamamelis Virginiana (Witch Hazel) Extract",
+    "koName": "위치하젤추출물",
+    "aliases": [
+      "witch hazel",
+      "hamamelis virginiana extract",
+      "위치하젤",
+      "위치하젤추출물"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural astringent that tones and tightens pores.",
+      "ko": "모공을 조이고 톤을 정돈하는 천연 수렴제입니다."
+    }
+  },
+  {
+    "id": "olive_oil",
+    "inciName": "Olea Europaea (Olive) Fruit Oil",
+    "koName": "올리브오일",
+    "aliases": [
+      "olive oil",
+      "olea europaea fruit oil",
+      "올리브오일",
+      "올리브유"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Rich emollient oil. Contains oleic acid which may clog pores for some.",
+      "ko": "풍부한 연화 오일. 올레산이 포함되어 일부 피부에 모공을 막을 수 있습니다."
+    }
+  },
+  {
+    "id": "coconut_oil",
+    "inciName": "Cocos Nucifera (Coconut) Oil",
+    "koName": "코코넛오일",
+    "aliases": [
+      "coconut oil",
+      "cocos nucifera oil",
+      "코코넛오일",
+      "코코넛유"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Occlusive moisturizer. Highly comedogenic—use with caution on face.",
+      "ko": "밀폐형 보습제. 코메도 유발 가능성이 높아 얼굴 사용 시 주의하세요."
+    }
+  },
+  {
+    "id": "argan_oil",
+    "inciName": "Argania Spinosa Kernel Oil",
+    "koName": "아르간오일",
+    "aliases": [
+      "argan oil",
+      "argania spinosa kernel oil",
+      "아르간오일"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Lightweight oil rich in vitamin E and fatty acids. Non-comedogenic.",
+      "ko": "비타민E와 지방산이 풍부한 가벼운 오일. 비코메도제닉입니다."
+    }
+  },
+  {
+    "id": "sunflower_oil",
+    "inciName": "Helianthus Annuus (Sunflower) Seed Oil",
+    "koName": "해바라기씨오일",
+    "aliases": [
+      "sunflower seed oil",
+      "helianthus annuus seed oil",
+      "해바라기씨오일",
+      "해바라기유"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Linoleic acid-rich oil that supports barrier and is non-comedogenic.",
+      "ko": "장벽을 지원하는 리놀레산이 풍부한 비코메도제닉 오일입니다."
+    }
+  },
+  {
+    "id": "macadamia_oil",
+    "inciName": "Macadamia Integrifolia Seed Oil",
+    "koName": "마카다미아오일",
+    "aliases": [
+      "macadamia oil",
+      "macadamia integrifolia seed oil",
+      "마카다미아오일"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Rich in palmitoleic acid which mimics skin sebum.",
+      "ko": "피부 피지를 모방하는 팔미톨레산이 풍부한 오일입니다."
+    }
+  },
+  {
+    "id": "avocado_oil",
+    "inciName": "Persea Gratissima (Avocado) Oil",
+    "koName": "아보카도오일",
+    "aliases": [
+      "avocado oil",
+      "persea gratissima oil",
+      "아보카도오일"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Nutrient-rich oil with vitamins A, D, E. Great for dry skin.",
+      "ko": "비타민A, D, E가 풍부한 영양 오일. 건성 피부에 좋습니다."
+    }
+  },
+  {
+    "id": "grape_seed_oil",
+    "inciName": "Vitis Vinifera (Grape) Seed Oil",
+    "koName": "포도씨오일",
+    "aliases": [
+      "grape seed oil",
+      "vitis vinifera seed oil",
+      "포도씨오일"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Lightweight astringent oil high in linoleic acid.",
+      "ko": "리놀레산이 높은 가벼운 수렴성 오일입니다."
+    }
+  },
+  {
+    "id": "camellia_oil",
+    "inciName": "Camellia Japonica Seed Oil",
+    "koName": "동백오일",
+    "aliases": [
+      "camellia oil",
+      "camellia japonica seed oil",
+      "tsubaki oil",
+      "동백오일",
+      "동백유"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Traditional East Asian beauty oil. Rich in oleic acid for deep nourishment.",
+      "ko": "동양 전통 미용 오일. 올레산이 풍부하여 깊은 영양을 제공합니다."
+    }
+  },
+  {
+    "id": "centella_water",
+    "inciName": "Centella Asiatica Leaf Water",
+    "koName": "병풀잎수",
+    "aliases": [
+      "centella asiatica leaf water",
+      "병풀잎수",
+      "시카워터"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Centella-infused water base for soothing formulations.",
+      "ko": "진정 제형을 위한 센텔라 워터 베이스입니다."
+    }
+  },
+  {
+    "id": "bamboo_water",
+    "inciName": "Phyllostachys Bambusoides Juice",
+    "koName": "대나무수액",
+    "aliases": [
+      "bamboo water",
+      "phyllostachys bambusoides juice",
+      "bamboo sap",
+      "대나무수액",
+      "죽수"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Hydrating bamboo sap used as water replacement in K-beauty.",
+      "ko": "K-뷰티에서 정제수 대신 사용하는 보습 대나무 수액입니다."
+    }
+  },
+  {
+    "id": "polyglutamic_acid",
+    "inciName": "Polyglutamic Acid",
+    "koName": "폴리글루탐산",
+    "aliases": [
+      "polyglutamic acid",
+      "pga",
+      "폴리글루탐산",
+      "감마폴리글루탐산"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Holds 4x more moisture than hyaluronic acid. Next-gen humectant.",
+      "ko": "히알루론산보다 4배 더 많은 수분을 잡는 차세대 보습제입니다."
+    }
+  },
+  {
+    "id": "collagen",
+    "inciName": "Hydrolyzed Collagen",
+    "koName": "가수분해콜라겐",
+    "aliases": [
+      "hydrolyzed collagen",
+      "collagen",
+      "marine collagen",
+      "가수분해콜라겐",
+      "콜라겐",
+      "마린콜라겐"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Hydrated collagen fragments for surface-level moisturizing.",
+      "ko": "표면 수준의 보습을 위한 가수분해 콜라겐 조각입니다."
+    }
+  },
+  {
+    "id": "elastin",
+    "inciName": "Hydrolyzed Elastin",
+    "koName": "가수분해엘라스틴",
+    "aliases": [
+      "hydrolyzed elastin",
+      "elastin",
+      "가수분해엘라스틴",
+      "엘라스틴"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Protein that conditions and adds suppleness to skin surface.",
+      "ko": "피부 표면에 유연성을 더하는 단백질입니다."
+    }
+  },
+  {
+    "id": "sodium_chloride",
+    "inciName": "Sodium Chloride",
+    "koName": "염화나트륨",
+    "aliases": [
+      "sodium chloride",
+      "salt",
+      "염화나트륨",
+      "소금"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Salt used as viscosity adjuster in formulations.",
+      "ko": "제형의 점도 조절에 사용되는 소금입니다."
+    }
+  },
+  {
+    "id": "magnesium_aluminum_silicate",
+    "inciName": "Magnesium Aluminum Silicate",
+    "koName": "마그네슘알루미늄실리케이트",
+    "aliases": [
+      "magnesium aluminum silicate",
+      "마그네슘알루미늄실리케이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural clay mineral for thickening and stabilizing.",
+      "ko": "점증과 안정화를 위한 천연 점토 미네랄입니다."
+    }
+  },
+  {
+    "id": "kaolin",
+    "inciName": "Kaolin",
+    "koName": "카올린",
+    "aliases": [
+      "kaolin",
+      "china clay",
+      "카올린",
+      "고령토"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Gentle clay that absorbs oil without over-drying.",
+      "ko": "과건조 없이 유분을 흡수하는 순한 클레이입니다."
+    }
+  },
+  {
+    "id": "bentonite",
+    "inciName": "Bentonite",
+    "koName": "벤토나이트",
+    "aliases": [
+      "bentonite",
+      "벤토나이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Absorbent clay used in masks for deep pore cleansing.",
+      "ko": "딥 모공 클렌징을 위한 마스크에 사용되는 흡수성 클레이입니다."
+    }
+  },
+  {
+    "id": "titanium_dioxide_sunscreen",
+    "inciName": "Titanium Dioxide (UV Filter)",
+    "koName": "이산화티타늄(자외선차단)",
+    "aliases": [
+      "titanium dioxide",
+      "이산화티타늄"
+    ],
+    "class": [
+      "spf"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Physical UV filter listed in active sunscreen ingredients.",
+      "ko": "자외선 차단 활성 성분에 기재된 물리적 UV 필터입니다."
+    }
+  },
+  {
+    "id": "bis_ethylhexyloxyphenol_methoxyphenyl_triazine",
+    "inciName": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+    "koName": "비스에틸헥실옥시페놀메톡시페닐트리아진",
+    "aliases": [
+      "tinosorb s",
+      "bemotrizinol",
+      "비스에틸헥실옥시페놀메톡시페닐트리아진",
+      "티노솔브s"
+    ],
+    "class": [
+      "spf",
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Broad-spectrum photostable UV filter (UVA+UVB).",
+      "ko": "광안정성이 뛰어난 광범위 자외선 필터(UVA+UVB)입니다."
+    }
+  },
+  {
+    "id": "ethylhexyl_methoxycinnamate",
+    "inciName": "Ethylhexyl Methoxycinnamate",
+    "koName": "에틸헥실메톡시신나메이트",
+    "aliases": [
+      "ethylhexyl methoxycinnamate",
+      "octinoxate",
+      "에틸헥실메톡시신나메이트",
+      "옥티녹세이트"
+    ],
+    "class": [
+      "spf",
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Chemical UVB filter. Widely used but some environmental concerns.",
+      "ko": "화학적 UVB 필터. 널리 사용되나 일부 환경적 우려가 있습니다."
+    }
+  },
+  {
+    "id": "ethylhexyl_salicylate",
+    "inciName": "Ethylhexyl Salicylate",
+    "koName": "에틸헥실살리실레이트",
+    "aliases": [
+      "ethylhexyl salicylate",
+      "octisalate",
+      "에틸헥실살리실레이트",
+      "옥티살레이트"
+    ],
+    "class": [
+      "spf",
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "UVB absorber and solvent for other sunscreen agents.",
+      "ko": "UVB 흡수제이자 다른 자외선 차단 성분의 용매입니다."
+    }
+  },
+  {
+    "id": "homosalate",
+    "inciName": "Homosalate",
+    "koName": "호모살레이트",
+    "aliases": [
+      "homosalate",
+      "호모살레이트"
+    ],
+    "class": [
+      "spf",
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "UVB filter commonly used to boost SPF value.",
+      "ko": "SPF 수치를 높이기 위해 일반적으로 사용되는 UVB 필터입니다."
+    }
+  },
+  {
+    "id": "diethylamino_hydroxybenzoyl_hexyl_benzoate",
+    "inciName": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+    "koName": "디에틸아미노하이드록시벤조일헥실벤조에이트",
+    "aliases": [
+      "diethylamino hydroxybenzoyl hexyl benzoate",
+      "uvinul a plus",
+      "디에틸아미노하이드록시벤조일헥실벤조에이트"
+    ],
+    "class": [
+      "spf",
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Photostable UVA filter.",
+      "ko": "광안정성 UVA 필터입니다."
+    }
+  },
+  {
+    "id": "copper_peptide_ghk",
+    "inciName": "Copper Lysinate/Prolinate",
+    "koName": "구리라이시네이트/프롤리네이트",
+    "aliases": [
+      "copper lysinate/prolinate",
+      "구리라이시네이트"
+    ],
+    "class": [
+      "peptide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Copper complex that supports skin repair and collagen production.",
+      "ko": "피부 복원과 콜라겐 생성을 지원하는 구리 복합체입니다."
+    }
+  },
+  {
+    "id": "pha_gluconolactone",
+    "inciName": "Glucono-Delta-Lactone",
+    "koName": "글루코노델타락톤",
+    "aliases": [
+      "glucono-delta-lactone",
+      "gdl",
+      "글루코노델타락톤"
+    ],
+    "class": [
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "PHA precursor that provides gentle exfoliation with humectant properties.",
+      "ko": "보습 효과와 함께 순한 각질 제거를 제공하는 PHA 전구체입니다."
+    }
+  },
+  {
+    "id": "alpha_lipoic_acid",
+    "inciName": "Thioctic Acid",
+    "koName": "알파리포산",
+    "aliases": [
+      "thioctic acid",
+      "alpha lipoic acid",
+      "ala",
+      "알파리포산",
+      "티옥트산"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Universal antioxidant soluble in both water and oil. Regenerates vitamins C and E.",
+      "ko": "수용성·지용성 모두에 용해되는 만능 항산화제. 비타민C와 E를 재생합니다."
+    }
+  },
+  {
+    "id": "astaxanthin",
+    "inciName": "Astaxanthin",
+    "koName": "아스타잔틴",
+    "aliases": [
+      "astaxanthin",
+      "아스타잔틴",
+      "아스타산틴"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Carotenoid antioxidant 6000x stronger than vitamin C. From microalgae.",
+      "ko": "비타민C보다 6000배 강한 카로티노이드 항산화제. 미세조류에서 추출됩니다."
+    }
+  },
+  {
+    "id": "pycnogenol",
+    "inciName": "Pinus Pinaster Bark Extract",
+    "koName": "피크노제놀",
+    "aliases": [
+      "pycnogenol",
+      "pine bark extract",
+      "pinus pinaster bark extract",
+      "피크노제놀",
+      "소나무껍질추출물"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Powerful antioxidant from French maritime pine bark. Anti-aging and brightening.",
+      "ko": "프랑스 해송 껍질에서 추출한 강력한 항산화제. 항노화와 브라이트닝 효과가 있습니다."
+    }
+  },
+  {
+    "id": "willow_bark",
+    "inciName": "Salix Alba (Willow) Bark Extract",
+    "koName": "버드나무껍질추출물",
+    "aliases": [
+      "willow bark extract",
+      "salix alba bark extract",
+      "버드나무껍질추출물",
+      "윌로우바크"
+    ],
+    "class": [
+      "bha",
+      "exfoliant_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Natural source of salicin (BHA precursor). Gentle pore-clearing and anti-inflammatory.",
+      "ko": "살리신(BHA 전구체)의 천연 공급원. 순한 모공 정화와 항염 효과가 있습니다."
+    }
+  },
+  {
+    "id": "retinol_binding_peptide",
+    "inciName": "Palmitoyl Tripeptide-38",
+    "koName": "팔미토일트리펩타이드-38",
+    "aliases": [
+      "palmitoyl tripeptide-38",
+      "matrixyl synthe 6",
+      "팔미토일트리펩타이드38"
+    ],
+    "class": [
+      "peptide",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Advanced anti-wrinkle peptide that stimulates 6 key components of skin matrix.",
+      "ko": "피부 매트릭스의 6가지 핵심 성분을 자극하는 고급 주름 개선 펩타이드입니다."
+    }
+  },
+  {
+    "id": "hemp_seed_oil",
+    "inciName": "Cannabis Sativa Seed Oil",
+    "koName": "대마종자유",
+    "aliases": [
+      "hemp seed oil",
+      "cannabis sativa seed oil",
+      "대마종자유",
+      "헴프씨드오일"
+    ],
+    "class": [
+      "oil_class",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Non-comedogenic oil rich in omega-3 and omega-6. Anti-inflammatory and balancing.",
+      "ko": "오메가-3와 오메가-6이 풍부한 비코메도제닉 오일. 항염과 밸런싱 효과가 있습니다."
+    }
+  },
+  {
+    "id": "tamanu_oil",
+    "inciName": "Calophyllum Inophyllum Seed Oil",
+    "koName": "타마누오일",
+    "aliases": [
+      "tamanu oil",
+      "calophyllum inophyllum seed oil",
+      "타마누오일"
+    ],
+    "class": [
+      "oil_class",
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Healing oil with anti-inflammatory and antimicrobial properties. Reduces scars.",
+      "ko": "항염·항균 효과가 있는 치유 오일. 흉터를 줄여줍니다."
+    }
+  },
+  {
+    "id": "chlorella",
+    "inciName": "Chlorella Vulgaris Extract",
+    "koName": "클로렐라추출물",
+    "aliases": [
+      "chlorella extract",
+      "chlorella vulgaris extract",
+      "클로렐라추출물",
+      "클로렐라"
+    ],
+    "class": [
+      "antioxidant",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Microalgae extract rich in peptides and amino acids. Detoxifying and rejuvenating.",
+      "ko": "펩타이드와 아미노산이 풍부한 미세조류 추출물. 해독과 재생 효과가 있습니다."
+    }
+  },
+  {
+    "id": "turmeric_extract",
+    "inciName": "Curcuma Longa (Turmeric) Root Extract",
+    "koName": "강황추출물",
+    "aliases": [
+      "turmeric extract",
+      "curcuma longa root extract",
+      "curcumin",
+      "강황추출물",
+      "강황",
+      "커큐민"
+    ],
+    "class": [
+      "antioxidant",
+      "soothing",
+      "active"
+    ],
+    "isActive": true,
+    "description": {
+      "en": "Anti-inflammatory and brightening root extract. Contains curcumin.",
+      "ko": "항염과 브라이트닝 효과의 뿌리 추출물. 커큐민을 함유합니다."
+    }
+  },
+  {
+    "id": "peg_40_hydrogenated_castor_oil",
+    "inciName": "PEG-40 Hydrogenated Castor Oil",
+    "koName": "피이지-40하이드로제네이티드캐스터오일",
+    "aliases": [
+      "peg-40 hydrogenated castor oil",
+      "피이지40수소첨가피마자유"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Solubilizer for oils and fragrances in water-based formulas.",
+      "ko": "수성 제형에서 오일과 향료를 가용화하는 성분입니다."
+    }
+  },
+  {
+    "id": "glyceryl_stearate_se",
+    "inciName": "Glyceryl Stearate SE",
+    "koName": "글리세릴스테아레이트SE",
+    "aliases": [
+      "glyceryl stearate se",
+      "글리세릴스테아레이트se"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Self-emulsifying form of glyceryl stearate. Creates stable oil-in-water emulsions.",
+      "ko": "글리세릴스테아레이트의 자가유화형. 안정적인 수중유적 에멀전을 만듭니다."
+    }
+  },
+  {
+    "id": "sorbitan_stearate",
+    "inciName": "Sorbitan Stearate",
+    "koName": "소르비탄스테아레이트",
+    "aliases": [
+      "sorbitan stearate",
+      "소르비탄스테아레이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Emulsifier for water-in-oil formulations like heavy creams.",
+      "ko": "리치 크림 같은 유중수적 제형을 위한 유화제입니다."
+    }
+  },
+  {
+    "id": "hydrogenated_polydecene",
+    "inciName": "Hydrogenated Polydecene",
+    "koName": "수소첨가폴리데센",
+    "aliases": [
+      "hydrogenated polydecene",
+      "수소첨가폴리데센"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Synthetic emollient with excellent spreadability and light feel.",
+      "ko": "우수한 발림성과 가벼운 느낌의 합성 연화제입니다."
+    }
+  },
+  {
+    "id": "cetyl_ethylhexanoate",
+    "inciName": "Cetyl Ethylhexanoate",
+    "koName": "세틸에틸헥사노에이트",
+    "aliases": [
+      "cetyl ethylhexanoate",
+      "세틸에틸헥사노에이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Lightweight ester emollient that provides silky texture without greasiness.",
+      "ko": "끈적임 없이 실크 같은 질감을 주는 가벼운 에스터 연화제입니다."
+    }
+  },
+  {
+    "id": "dipropylene_glycol",
+    "inciName": "Dipropylene Glycol",
+    "koName": "디프로필렌글라이콜",
+    "aliases": [
+      "dipropylene glycol",
+      "dpg",
+      "디프로필렌글라이콜",
+      "디프로필렌글리콜"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Lightweight solvent and humectant common in K-beauty formulations.",
+      "ko": "K-뷰티 제형에 흔한 가벼운 용매 겸 보습제입니다."
+    }
+  },
+  {
+    "id": "bis_peg_18_methyl_ether_dimethyl_silane",
+    "inciName": "Bis-PEG-18 Methyl Ether Dimethyl Silane",
+    "koName": "비스피이지-18메틸에테르디메틸실란",
+    "aliases": [
+      "bis-peg-18 methyl ether dimethyl silane",
+      "비스피이지18메틸에테르디메틸실란"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Silicone-based emollient that bridges water and oil phases in sunscreens.",
+      "ko": "선크림에서 수상과 유상을 연결하는 실리콘 기반 연화제입니다."
+    }
+  },
+  {
+    "id": "ethyl_linoleate",
+    "inciName": "Ethyl Linoleate",
+    "koName": "에틸리놀레이트",
+    "aliases": [
+      "ethyl linoleate",
+      "에틸리놀레이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Fatty acid ester that softens and conditions skin.",
+      "ko": "피부를 부드럽게 하고 컨디셔닝하는 지방산 에스터입니다."
+    }
+  },
+  {
+    "id": "hydroxyacetophenone",
+    "inciName": "Hydroxyacetophenone",
+    "koName": "하이드록시아세토페논",
+    "aliases": [
+      "hydroxyacetophenone",
+      "하이드록시아세토페논"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Antioxidant preservative booster with soothing properties.",
+      "ko": "진정 효과가 있는 항산화 방부력 강화제입니다."
+    }
+  },
+  {
+    "id": "polyglyceryl_3_methylglucose_distearate",
+    "inciName": "Polyglyceryl-3 Methylglucose Distearate",
+    "koName": "폴리글리세릴-3메틸글루코스디스테아레이트",
+    "aliases": [
+      "polyglyceryl-3 methylglucose distearate",
+      "폴리글리세릴3메틸글루코스디스테아레이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Gentle plant-derived emulsifier for sensitive skin formulations.",
+      "ko": "민감 피부 제형을 위한 순한 식물 유래 유화제입니다."
+    }
+  },
+  {
+    "id": "c12_14_pareth_12",
+    "inciName": "C12-14 Pareth-12",
+    "koName": "씨12-14파레스-12",
+    "aliases": [
+      "c12-14 pareth-12",
+      "씨12-14파레스12"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Non-ionic surfactant used as emulsifier and solubilizer.",
+      "ko": "유화제 및 가용화제로 사용되는 비이온 계면활성제입니다."
+    }
+  },
+  {
+    "id": "myristic_acid",
+    "inciName": "Myristic Acid",
+    "koName": "미리스틱산",
+    "aliases": [
+      "myristic acid",
+      "미리스틱산",
+      "미리스트산"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Fatty acid used as cleanser and emulsifier in face washes.",
+      "ko": "폼 클렌저에서 세정제 및 유화제로 사용되는 지방산입니다."
+    }
+  },
+  {
+    "id": "lauric_acid",
+    "inciName": "Lauric Acid",
+    "koName": "라우르산",
+    "aliases": [
+      "lauric acid",
+      "라우르산",
+      "라우릭산"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Antimicrobial fatty acid from coconut oil. Used in cleansers.",
+      "ko": "코코넛오일 유래 항균 지방산. 클렌저에 사용됩니다."
+    }
+  },
+  {
+    "id": "potassium_hydroxide",
+    "inciName": "Potassium Hydroxide",
+    "koName": "수산화칼륨",
+    "aliases": [
+      "potassium hydroxide",
+      "koh",
+      "수산화칼륨"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "pH adjuster used in trace amounts for formulation stability.",
+      "ko": "제형 안정성을 위해 극소량 사용되는 pH 조절제입니다."
+    }
+  },
+  {
+    "id": "tromethamine",
+    "inciName": "Tromethamine",
+    "koName": "트로메타민",
+    "aliases": [
+      "tromethamine",
+      "tris",
+      "트로메타민"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "pH buffer and neutralizer in cosmetic formulations.",
+      "ko": "화장품 제형의 pH 완충제 및 중화제입니다."
+    }
+  },
+  {
+    "id": "sodium_citrate",
+    "inciName": "Sodium Citrate",
+    "koName": "소듐시트레이트",
+    "aliases": [
+      "sodium citrate",
+      "소듐시트레이트",
+      "구연산나트륨"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Chelating agent and pH adjuster. Buffering agent in formulations.",
+      "ko": "킬레이트제 및 pH 조절제. 제형의 완충제입니다."
+    }
+  },
+  {
+    "id": "glucose",
+    "inciName": "Glucose",
+    "koName": "글루코스",
+    "aliases": [
+      "glucose",
+      "dextrose",
+      "글루코스",
+      "포도당"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural sugar humectant that attracts moisture to skin.",
+      "ko": "피부에 수분을 끌어당기는 천연 당 보습제입니다."
+    }
+  },
+  {
+    "id": "fructose",
+    "inciName": "Fructose",
+    "koName": "프럭토스",
+    "aliases": [
+      "fructose",
+      "프럭토스",
+      "과당"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Natural fruit sugar humectant component of NMF.",
+      "ko": "NMF 구성 성분인 천연 과일당 보습제입니다."
+    }
+  },
+  {
+    "id": "acrylates_c10_30",
+    "inciName": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+    "koName": "아크릴레이트/C10-30알킬아크릴레이트크로스폴리머",
+    "aliases": [
+      "acrylates/c10-30 alkyl acrylate crosspolymer",
+      "아크릴레이트크로스폴리머",
+      "pemulen"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Thickener and emulsion stabilizer for gel-cream textures.",
+      "ko": "겔 크림 질감을 위한 점증제 겸 에멀전 안정제입니다."
+    }
+  },
+  {
+    "id": "dimethicone_crosspolymer",
+    "inciName": "Dimethicone/Vinyl Dimethicone Crosspolymer",
+    "koName": "디메치콘/비닐디메치콘크로스폴리머",
+    "aliases": [
+      "dimethicone crosspolymer",
+      "dimethicone/vinyl dimethicone crosspolymer",
+      "디메치콘크로스폴리머"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Silicone elastomer that gives primers their silky, blurring texture.",
+      "ko": "프라이머에 실크 같은 블러링 질감을 주는 실리콘 엘라스토머입니다."
+    }
+  },
+  {
+    "id": "cetyl_peg_ppg_10_1_dimethicone",
+    "inciName": "Cetyl PEG/PPG-10/1 Dimethicone",
+    "koName": "세틸피이지/피피지-10/1디메치콘",
+    "aliases": [
+      "cetyl peg/ppg-10/1 dimethicone",
+      "abil em 90",
+      "세틸피이지피피지디메치콘"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Silicone emulsifier for water-in-silicone formulations like sunscreens.",
+      "ko": "선크림 같은 실리콘 내 수분 제형을 위한 실리콘 유화제입니다."
+    }
+  },
+  {
+    "id": "tocopheryl_acetate_base",
+    "inciName": "DL-alpha-Tocopheryl Acetate",
+    "koName": "DL-알파토코페릴아세테이트",
+    "aliases": [
+      "dl-alpha-tocopheryl acetate",
+      "dl-알파토코페릴아세테이트"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Synthetic vitamin E form used as antioxidant stabilizer in formulations.",
+      "ko": "제형의 항산화 안정제로 사용되는 합성 비타민E 형태입니다."
+    }
+  },
+  {
+    "id": "biosaccharide_gum_1",
+    "inciName": "Biosaccharide Gum-1",
+    "koName": "바이오사카라이드검-1",
+    "aliases": [
+      "biosaccharide gum-1",
+      "바이오사카라이드검1",
+      "fucogel"
+    ],
+    "class": [
+      "base"
+    ],
+    "isActive": false,
+    "description": {
+      "en": "Biotech-derived moisturizer with soothing and anti-irritation effects.",
+      "ko": "진정과 항자극 효과가 있는 바이오테크 유래 보습제입니다."
+    }
+  }
+]
